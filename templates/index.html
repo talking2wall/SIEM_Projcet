@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <!-- Include Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS for table styling -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a; /* Dark background color for the body */
+            color: #ccc; /* Text color in dark mode */
+            font-family: 'Arial', sans-serif; /* Modern font */
+        }
+        .container {
+            max-width: none;
+            height: 95vh; /* Set the container height to 95% of the viewport height */
+            background-color: #121212; /* Slightly lighter background color for the container */
+            /* border-radius: 10px; Rounded corners for the container */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
+            overflow: hidden; /* Hide any overflow beyond the container */
+            display: flex;
+            flex-direction: column;
+        }
+        table {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: auto; /* Add horizontal scrollbar when table overflows */
+        }
+        .table-responsive {
+            border-radius: 5px; /* Slightly rounded table edges */
+            overflow: auto; /* Add both horizontal and vertical scrollbars when table overflows */
+            max-height: 100%; /* Set a maximum height for vertical scrolling (adjust as needed) */
+        }
+        th, td {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            padding: 10px;
+            font-size: 14px; /* Font size for better readability */
+            background-color: #1a1a1a; /* Darker background color for table cells */
+            border: 1px solid #333; /* Border color for table cells */
+            color: #fff; /* Text color in table cells */
+            text-align: left; /* Justify text to the left */
+        }
+        h1 {
+            color: #ffa500; /* Header text color in dark mode (orange) */
+        }
+
+        /* Scrollbar styling for webkit-based browsers (Chrome, Safari) */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #121212; /* Track background color */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333; /* Thumb color */
+            border-radius: 6px; /* Rounded corners for the thumb */
+        }
+
+        /* Scrollbar styling for Firefox */
+        scrollbar-width: thin;
+        scrollbar-color: #333 #121212; /* Thumb and track color */
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="container">
+        <br>
+        <h1>Data Table</h1>
+        <!-- Display the Pandas DataFrame as a Bootstrap table with horizontal and vertical scrollbars -->
+        <div class="table-responsive">
+            <table>
+                {{ table | safe }}
+            </table>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS for additional functionality (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
