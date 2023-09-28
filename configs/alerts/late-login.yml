@@ -1,0 +1,9 @@
+parameters:
+  LogName: 'Security'
+  EventCode: 4624
+  start_time: '20:00:00'
+  end_time: '07:00:00'
+
+alert:
+  Message: A user was logged in after work hours.
+  SeverityLevel: 1

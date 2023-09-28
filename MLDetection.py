@@ -9,7 +9,7 @@ def Run(df, threshold):
     df_original = df.copy()
     #df_original['IsMalicious'] = ''
 
-    with open('logistic_regression_model.pkl', 'rb') as f:
+    with open(r'models\logistic_regression_model.pkl', 'rb') as f:
         vectorizer, model = pickle.load(f)
 
     log_message = df['Message']

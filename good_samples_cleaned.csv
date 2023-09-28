@@ -1,352 +1,0 @@
-LogName,Date,Time,ComputerName,SourceName,TaskCategory,EventType,Keywords,OpCode,EventCode,Type,RecordNumber,Message
-Application,2023-09-22,00:10:15,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3267,Successfully scheduled Software Protection service for re-start at 2023-09-22T21:08:15Z. Reason: RulesEngine.
-System,2023-09-22,00:10:01,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2279,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.ZuneMusic_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-Application,2023-09-22,00:09:45,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3266,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-System,2023-09-22,00:09:23,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2278,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\Settings\settings.dat was cleared updating 3 keys and creating 1 modified pages.
-Application,2023-09-22,00:09:20,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8198,2,3265,"License Activation (slui.exe) failed with the following error code:"
-Application,2023-09-22,00:09:20,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3264,"The Software Protection service has completed licensing status check."
-Application,2023-09-22,00:09:20,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3263,"The Software Protection service has completed licensing status check."
-Application,2023-09-22,00:09:19,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,1014,2,3262,"Acquisition of End User License failed. hr=0xC004C008"
-Application,2023-09-22,00:09:19,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8200,2,3261,"License acquisition failure details. "
-Application,2023-09-22,00:09:13,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3260,Offline downlevel migration succeeded.
-Application,2023-09-22,00:09:07,CLIENT-PC,Microsoft-Windows-Winlogon,None,4,Classic,None,6000,4,3259,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
-System,2023-09-22,00:09:06,CLIENT-PC,Microsoft-Windows-Winlogon,1101,4,None,Info,7001,4,2277,User Logon Notification for Customer Experience Improvement Program
-Application,2023-09-22,00:09:06,CLIENT-PC,Microsoft-Windows-Winlogon,None,4,Classic,None,6003,4,3258,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
-System,2023-09-22,00:08:13,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2276,The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.Photos_2023.11090.12017.0_x64__8wekyb3d8bbwe\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages.
-System,2023-09-22,00:08:08,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2275,The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\microsoft.windowscommunicationsapps_16005.14326.21580.0_x64__8wekyb3d8bbwe\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages.
-Application,2023-09-22,00:08:07,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3257,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:07Z. Reason: RulesEngine.
-System,2023-09-22,00:08:02,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2274,The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.ZuneMusic_11.2308.3.0_x64__8wekyb3d8bbwe\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages.
-System,2023-09-22,00:07:59,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Download, Started",Download,44,4,2273,Windows Update started downloading an update.
-System,2023-09-22,00:07:56,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2272,The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Services.Store.Engagement_10.0.23012.0_x64__8wekyb3d8bbwe\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages.
-System,2023-09-22,00:07:54,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2271,The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Services.Store.Engagement_10.0.23012.0_x86__8wekyb3d8bbwe\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages.
-System,2023-09-22,00:07:52,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Download, Started",Download,44,4,2270,Windows Update started downloading an update.
-System,2023-09-22,00:07:52,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Download, Started",Download,44,4,2269,Windows Update started downloading an update.
-System,2023-09-22,00:07:52,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Download, Started",Download,44,4,2268,Windows Update started downloading an update.
-System,2023-09-22,00:07:36,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7040,4,2267,The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
-Application,2023-09-22,00:07:30,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3256,Offline downlevel migration succeeded.
-Application,2023-09-22,00:06:13,CLIENT-PC,gupdate,None,4,Classic,Info,0,4,3255,The operation completed successfully.
-Application,2023-09-22,00:05:58,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3254,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:58Z. Reason: RulesEngine.
-Application,2023-09-22,00:05:34,CLIENT-PC,Microsoft-Windows-Search,Search service,4,Classic,NOTE:  This dummy error message is necessary to force MC to output        the above defines inside the FACILITY_WINDOWS guard instead        of leaving it empty.,1003,4,3253,The Windows Search Service started.
-Application,2023-09-22,00:05:34,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3252,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-Application,2023-09-22,00:05:32,CLIENT-PC,ESENT,General,4,Classic,Info,326,4,3251,"SearchIndexer (2244,D,50) Windows: The database engine attached a database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) "
-Application,2023-09-22,00:05:32,CLIENT-PC,ESENT,General,4,Classic,Info,105,4,3250,"SearchIndexer (2244,D,0) Windows: The database engine started a new instance (0). (Time=0 seconds) "
-Application,2023-09-22,00:05:32,CLIENT-PC,ESENT,General,4,Classic,Info,102,4,3249,"SearchIndexer (2244,P,98) Windows: The database engine (10.00.19045.0000) is starting a new instance (0)."
-Application,2023-09-22,00:05:32,CLIENT-PC,SecurityCenter,None,4,Classic,Info,1,4,3248,The Windows Security Center Service has started.
-System,2023-09-22,00:05:31,CLIENT-PC,Microsoft-Windows-DistributedCOM,None,3,Classic,Info,10016,3,2266,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID "
-Application,2023-09-22,00:05:31,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3247,Offline downlevel migration succeeded.
-Application,2023-09-22,00:05:31,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,900,4,3246,"The Software Protection service is starting."
-Application,2023-09-22,00:05:30,CLIENT-PC,gupdate,None,4,Classic,Info,0,4,3245,The operation completed successfully.
-Application,2023-09-22,00:05:29,CLIENT-PC,edgeupdate,None,4,Classic,Info,0,4,3244,Service stopped.
-Application,2023-09-22,00:05:24,CLIENT-PC,Microsoft-Windows-Security-SPP,None,0,Classic,None,903,0,3243,The Software Protection service has stopped.
-Application,2023-09-22,00:05:24,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3242,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:24Z. Reason: RulesEngine.
-System,2023-09-22,00:05:23,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Installation, Success",Installation,19,4,2265,Installation Successful: Windows successfully installed the following update: 2023-09 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5030211)
-System,2023-09-22,00:05:12,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7040,4,2264,The start type of the Windows Modules Installer service was changed from auto start to demand start.
-Setup,2023-09-22,00:05:02,CLIENT-PC,Microsoft-Windows-Servicing,1,0,None,Info,2,0,27,Package KB5030211 was successfully changed to the Installed state.
-System,2023-09-22,00:04:49,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2263,The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\MicrosoftWindows.Client.CBS_1000.19044.1000.0_x64__cw5n1h2txyewy\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages.
-Application,2023-09-22,00:04:48,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,8230,4,3241,"The rules engine successfully re-evaluated the schedule."
-System,2023-09-22,00:04:46,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2262,The access history in hive \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.CloudExperienceHost_10.0.19041.3393_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat was cleared updating 0 keys and creating 0 modified pages.
-Application,2023-09-22,00:04:42,CLIENT-PC,Microsoft-Windows-Security-SPP,None,0,Classic,None,902,0,3240,"The Software Protection service has started."
-Application,2023-09-22,00:04:42,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3239,"The Software Protection service has completed licensing status check."
-Application,2023-09-22,00:04:42,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3238,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
-Application,2023-09-22,00:04:42,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3237,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:42,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3236,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:42,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3235,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:41,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3234,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:41,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3233,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:41,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3232,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:41,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3231,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:41,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3230,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:41,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1034,4,3229,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
-Application,2023-09-22,00:04:40,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3228,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:40,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3227,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:40,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3226,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:40,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3225,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3224,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3223,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3222,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3221,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3220,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3219,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3218,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3217,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3216,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3215,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3214,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3213,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3212,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3211,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3210,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3209,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3208,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3207,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3206,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3205,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3204,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3203,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3202,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3201,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3200,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3199,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3198,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3197,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3196,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:39,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3195,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:38,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3194,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:38,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1004,4,3193,"The Software Protection service has successfully installed the license."
-Application,2023-09-22,00:04:37,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1066,4,3192,"Initialization status for service objects."
-Application,2023-09-22,00:04:37,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3191,Offline downlevel migration succeeded.
-Application,2023-09-22,00:04:37,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,900,4,3190,"The Software Protection service is starting."
-System,2023-09-22,00:04:21,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2261,The access history in hive \??\C:\Users\Default\NTUSER.DAT was cleared updating 5 keys and creating 2 modified pages.
-Application,2023-09-22,00:04:21,CLIENT-PC,Microsoft-Windows-WMI,None,4,None,Info,5617,4,3189,Windows Management Instrumentation Service subsystems initialized successfully
-System,2023-09-22,00:03:23,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7026,4,2260,"The following boot-start or system-start driver(s) did not load: "
-Application,2023-09-22,00:03:20,CLIENT-PC,Microsoft-Windows-WMI,None,4,None,Info,5615,4,3188,Windows Management Instrumentation Service started sucessfully
-Application,2023-09-22,00:03:19,CLIENT-PC,Desktop Window Manager,None,4,Classic,None,9027,4,3187,The Desktop Window Manager has registered the session port.
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-DHCPv6-Client,Service State Event,4,None,ServiceStart,51046,4,2259,DHCPv6 client service is started
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceShutdown,50103,4,2258,DHCPv4 client registered for shutdown notification
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceStart,50036,4,2257,DHCPv4 client service is started
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2256,"File System Filter 'bindflt' (10.0, ‎2005‎-‎08‎-‎08T23:17:00.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2255,"File System Filter 'storqosflt' (10.0, ‎2007‎-‎04‎-‎09T21:08:30.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2254,"File System Filter 'CldFlt' (10.0, ‎2089‎-‎06‎-‎12T20:24:15.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,1,4,2253,"File System Filter 'CldFlt' (Version 10.0, ‎2089‎-‎06‎-‎12T20:24:15.000000000Z) unloaded successfully."
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2252,"File System Filter 'CldFlt' (10.0, ‎2089‎-‎06‎-‎12T20:24:15.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2251,"File System Filter 'wcifs' (10.0, ‎2004‎-‎03‎-‎22T20:56:15.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2250,"File System Filter 'luafv' (10.0, ‎1986‎-‎08‎-‎13T23:58:59.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:17,CLIENT-PC,EventLog,None,4,Classic,None,6013,4,2222,The system uptime is 9 seconds.
-System,2023-09-22,00:03:17,CLIENT-PC,EventLog,None,4,Classic,None,6005,4,2221,The Event log service was started.
-System,2023-09-22,00:03:17,CLIENT-PC,EventLog,None,4,Classic,None,6009,4,2220,Microsoft (R) Windows (R) 10.00. 19045  Multiprocessor Free.
-Application,2023-09-22,00:03:17,CLIENT-PC,Microsoft-Windows-User Profile Service,None,4,None,Info,1531,4,3186,The User Profile Service has started successfully.
-System,2023-09-22,00:03:15,CLIENT-PC,Microsoft-Windows-Directory-Services-SAM,None,4,None,Info,16983,4,2249,"The security account manager is now logging periodic summary events for remote clients that call legacy password change or set RPC methods."
-System,2023-09-22,00:03:15,CLIENT-PC,Microsoft-Windows-Directory-Services-SAM,None,4,None,Info,16977,4,2248,"The domain is configured with the following minimum password length-related settings."
-System,2023-09-22,00:03:15,CLIENT-PC,Microsoft-Windows-Directory-Services-SAM,None,4,None,Info,16962,4,2247,"Remote calls to the SAM database are being restricted using the default security descriptor: O:SYG:SYD:(A;;RC;;;BA)."
-System,2023-09-22,00:03:15,CLIENT-PC,Microsoft-Windows-Wininit,None,4,None,Info,14,4,2246,"Credential Guard configuration: 0x0, 0"
-System,2023-09-22,00:03:15,CLIENT-PC,Microsoft-Windows-Kernel-General,11,4,Time,Info,24,4,2245,The time zone information was refreshed with exit reason 0. Current time zone bias is -180.
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307345,"A new process has been created."
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307344,"A new process has been created."
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307343,"A new process has been created."
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307342,"A new process has been created."
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307341,"A new process has been created."
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307340,"A new process has been created."
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307339,"A new process has been created."
-Security,2023-09-22,00:03:15,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307338,"A new process has been created."
-Security,2023-09-22,00:03:14,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307337,"A new process has been created."
-System,2023-09-22,00:03:10,CLIENT-PC,Microsoft-Windows-Kernel-Power,220,4,None,Info,521,4,2244,Active battery count change.
-System,2023-09-22,00:03:10,CLIENT-PC,Microsoft-Windows-Kernel-Power,220,4,None,Info,521,4,2243,Active battery count change.
-System,2023-09-22,00:03:10,CLIENT-PC,Microsoft-Windows-Kernel-Processor-Power,47,4,None,Info,55,4,2242,"Processor 1 in group 0 exposes the following power management capabilities:"
-System,2023-09-22,00:03:10,CLIENT-PC,Microsoft-Windows-Kernel-Processor-Power,47,4,None,Info,55,4,2241,"Processor 0 in group 0 exposes the following power management capabilities:"
-System,2023-09-22,00:03:10,CLIENT-PC,Microsoft-Windows-Kernel-Power,203,4,None,Info,172,4,2240,"Connectivity state in standby: Disconnected, Reason: NIC compliance"
-Security,2023-09-22,00:03:10,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307336,"A new process has been created."
-Security,2023-09-22,00:03:10,CLIENT-PC,Microsoft Windows security auditing.,Other Policy Change Events,0,Audit Success,Info,4826,0,307335,"Boot Configuration Data loaded."
-Security,2023-09-22,00:03:10,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4696,0,307334,"A primary token was assigned to process."
-Security,2023-09-22,00:03:10,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307333,"A new process has been created."
-System,2023-09-22,00:03:09,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2239,"File System Filter 'npsvctrig' (10.0, ‎2025‎-‎01‎-‎06T05:41:12.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:09,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2238,"File System Filter 'FileCrypt' (10.0, ‎2002‎-‎03‎-‎01T14:12:42.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:09,CLIENT-PC,Microsoft-Windows-Ntfs,None,4,None,Info,98,4,2237,Volume C: (\Device\HarddiskVolume1) is healthy.  No action is needed.
-System,2023-09-22,00:03:08,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2236,"File System Filter 'WdFilter' (10.0, ‎2035‎-‎08‎-‎05T03:44:58.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:08,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2235,"File System Filter 'Wof' (10.0, ‎2023‎-‎04‎-‎23T05:17:53.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:08,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2234,"File System Filter 'FileInfo' (10.0, ‎2062‎-‎12‎-‎23T08:21:06.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-22,00:03:08,CLIENT-PC,Microsoft-Windows-HAL,None,4,None,Info,16,4,2233,The iommu fault reporting has been initialized.
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-General,6,4,Time,Info,20,4,2232,"The leap second configuration has been updated."
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-Boot,58,4,None,Info,32,4,2231,The bootmgr spent 0 ms waiting for user input.
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-Boot,57,4,None,Info,18,4,2230,There are 0x1 boot options on this system.
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-Boot,33,4,None,Info,27,4,2229,The boot type was 0x0.
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-Boot,32,4,None,Info,25,4,2228,The boot menu policy was 0x1.
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-Boot,31,4,None,Info,20,4,2227,The last shutdown's success status was true. The last boot's success status was true.
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-Boot,62,4,None,Info,153,4,2226,Virtualization-based security (policies: 0) is disabled.
-System,2023-09-22,00:03:07,CLIENT-PC,Microsoft-Windows-Kernel-General,1,4,None,Info,12,4,2225,The operating system started at system time ‎2023‎-‎09‎-‎21T21:03:07.500000000Z.
-System,2023-09-22,00:03:00,CLIENT-PC,Microsoft-Windows-Kernel-General,2,4,None,Info,13,4,2224,The operating system is shutting down at system time ‎2023‎-‎09‎-‎21T21:03:00.643317900Z.
-System,2023-09-22,00:03:00,CLIENT-PC,Microsoft-Windows-Kernel-Power,103,4,None,Info,109,4,2223,"The kernel power manager has initiated a shutdown transition."
-System,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceStop,50037,4,2219,DHCPv4 client service is stopped. ShutDown Flag value is 1
-System,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-DHCPv6-Client,Service State Event,4,None,ServiceStopWithRefCount,51057,4,2218,DHCPv6 client service stop is almost done.DHCP Context Ref count is 1
-System,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-DHCPv6-Client,Service State Event,4,None,ServiceStop,51047,4,2217,DHCPv6 client service is stopped. ShutDown Flag value is 1
-System,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceShutdown,50106,4,2216,DHCPv4 is waiting on DHCPv6 service to stop
-System,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceShutdown,50105,4,2215,DHCPv4 client ProcessDHCPRequestForever received TERMINATE_EVENT
-System,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceShutdown,50104,4,2214,DHCPv4 client received shutdown notification
-System,2023-09-22,00:02:56,CLIENT-PC,EventLog,None,4,Classic,None,6006,4,2213,The Event log service was stopped.
-Application,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-User Profile Service,None,4,None,Info,1532,4,3185,The User Profile Service has stopped.
-Security,2023-09-22,00:02:56,CLIENT-PC,Microsoft-Windows-Eventlog,Service shutdown,4,Audit Success,Info,1100,4,307332,The event logging service has shut down.
-Application,2023-09-22,00:01:15,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3184,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:15Z. Reason: RulesEngine.
-System,2023-09-22,00:00:46,CLIENT-PC,Microsoft-Windows-Winlogon,1102,4,None,Info,7002,4,2212,User Logoff Notification for Customer Experience Improvement Program
-Application,2023-09-22,00:00:46,CLIENT-PC,Microsoft-Windows-Winlogon,None,4,Classic,None,6000,4,3183,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
-Application,2023-09-22,00:00:46,CLIENT-PC,Microsoft-Windows-Winlogon,None,4,Classic,None,6000,4,3182,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
-System,2023-09-22,00:00:43,CLIENT-PC,User32,None,4,Classic,None,1074,4,2211,"The process C:\Windows\system32\MusNotificationUx.exe (CLIENT-PC) has initiated the restart of computer CLIENT-PC on behalf of user CLIENT-PC\Communication_LTD for the following reason: Operating System: Service pack (Planned)"
-Application,2023-09-22,00:00:37,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3181,Offline downlevel migration succeeded.
-System,2023-09-21,23:59:41,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2210,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 3 keys and creating 1 modified pages.
-Application,2023-09-21,23:56:45,CLIENT-PC,VSS,None,4,Classic,Info,8224,4,3180,The VSS service is shutting down due to idle timeout.
-Application,2023-09-21,23:55:55,CLIENT-PC,gupdate,None,4,Classic,Info,0,4,3179,The operation completed successfully.
-Application,2023-09-21,23:55:55,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3178,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:55Z. Reason: RulesEngine.
-System,2023-09-21,23:55:52,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7045,4,2209,"A service was installed in the system."
-System,2023-09-21,23:55:30,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7045,4,2208,"A service was installed in the system."
-System,2023-09-21,23:55:30,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7045,4,2207,"A service was installed in the system."
-Application,2023-09-21,23:55:26,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3177,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-Application,2023-09-21,23:55:24,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3176,Offline downlevel migration succeeded.
-Application,2023-09-21,23:54:35,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3175,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:35Z. Reason: RulesEngine.
-Application,2023-09-21,23:54:24,CLIENT-PC,Windows Error Reporting,None,4,Classic,Info,1001,4,3174,"Fault bucket 1525878191447436250, type 5"
-Application,2023-09-21,23:54:21,CLIENT-PC,Application Error,Application Crashing Events,2,Classic,Info,1000,2,3173,"Faulting application name: Microsoft.Photos.exe, version: 2023.10070.17002.0, time stamp: 0x64b5a80d"
-Application,2023-09-21,23:54:04,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3172,Offline downlevel migration succeeded.
-Setup,2023-09-21,23:53:48,CLIENT-PC,Microsoft-Windows-Servicing,1,0,None,Info,4,0,26,A reboot is necessary before package KB5030211 can be changed to the Installed state.
-Application,2023-09-21,23:52:19,CLIENT-PC,edgeupdate,None,4,Classic,Info,0,4,3171,Service stopped.
-System,2023-09-21,23:51:43,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2206,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\Settings\settings.dat was cleared updating 180 keys and creating 8 modified pages.
-Application,2023-09-21,23:50:17,CLIENT-PC,Windows Error Reporting,None,4,Classic,Info,1001,4,3170,"Fault bucket 2104549068006373076, type 5"
-Application,2023-09-21,23:46:34,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3169,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-System,2023-09-21,23:46:32,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Installation, Success",Installation,19,4,2205,Installation Successful: Windows successfully installed the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.397.1353.0)
-Application,2023-09-21,23:45:24,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3168,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-Application,2023-09-21,23:44:59,CLIENT-PC,Windows Error Reporting,None,4,Classic,Info,1001,4,3167,"Fault bucket INVALID_REQUEST, type 0"
-System,2023-09-21,23:42:35,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2204,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.SkypeApp_kzf8qxf38zg5c\SystemAppData\Helium\UserClasses.dat was cleared updating 1 keys and creating 1 modified pages.
-System,2023-09-21,23:42:35,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2203,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.SkypeApp_kzf8qxf38zg5c\SystemAppData\Helium\User.dat was cleared updating 1 keys and creating 1 modified pages.
-Application,2023-09-21,23:41:34,CLIENT-PC,Windows Error Reporting,None,4,Classic,Info,1001,4,3166,"Fault bucket , type 0"
-Application,2023-09-21,23:41:34,CLIENT-PC,Windows Error Reporting,None,4,Classic,Info,1001,4,3165,"Fault bucket , type 0"
-System,2023-09-21,23:39:38,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2202,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\Settings\settings.dat was cleared updating 2 keys and creating 1 modified pages.
-System,2023-09-21,23:36:27,CLIENT-PC,Microsoft-Windows-DistributedCOM,None,3,Classic,Info,10016,3,2201,"The machine-default permission settings do not grant Local Activation permission for the COM Server application with CLSID "
-Application,2023-09-21,23:35:49,CLIENT-PC,Microsoft-Windows-CAPI2,None,4,Classic,Info,4097,4,3164,"Successful auto update of third-party root certificate:: Subject: <CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, S=New Jersey, C=US> Sha1 thumbprint: <D1CBCA5DB2D52A7F693B674DE5F05A1D0C957DF0>."
-System,2023-09-21,23:35:38,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2200,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-System,2023-09-21,23:35:15,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2199,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.XboxIdentityProvider_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 2 keys and creating 1 modified pages.
-System,2023-09-21,23:34:53,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2198,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.XboxGamingOverlay_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 3 keys and creating 1 modified pages.
-Application,2023-09-21,23:33:33,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3163,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:33Z. Reason: RulesEngine.
-System,2023-09-21,23:33:18,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2197,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.WindowsCamera_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-System,2023-09-21,23:33:08,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2196,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-Application,2023-09-21,23:33:08,CLIENT-PC,ESENT,General,4,Classic,Info,330,4,3162,"Video.UI (10628,D,2) {12D3E340-232D-489E-87F3-8988660A1B68}: The database [C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\tmp.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9180 (0x23dc)."
-Application,2023-09-21,23:33:08,CLIENT-PC,ESENT,General,4,Classic,Info,325,4,3161,"Video.UI (10628,D,35) {12D3E340-232D-489E-87F3-8988660A1B68}: The database engine created a new database (1, C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb). (Time=0 seconds) "
-Application,2023-09-21,23:33:08,CLIENT-PC,ESENT,General,4,Classic,Info,641,4,3160,"Video.UI (10628,D,35) {12D3E340-232D-489E-87F3-8988660A1B68}: The log format feature version 8940 (0x22ec - 8.6.20) could not be used due to the current log format 8.5.16, controlled by the parameter 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat)."
-Application,2023-09-21,23:33:08,CLIENT-PC,ESENT,General,4,Classic,Info,330,4,3159,"Video.UI (10628,D,35) {12D3E340-232D-489E-87F3-8988660A1B68}: The database [C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.ZuneVideo_8wekyb3d8bbwe\LocalState\Database\anonymous\EntClientDb.edb] format version is being held back to 8920 (0x22d8) due to application parameter setting of 0x410022D8 (8920 | JET_efvAllowHigherPersistedFormat). Current default engine version: 9180 (0x23dc)."
-Application,2023-09-21,23:33:08,CLIENT-PC,ESENT,General,4,Classic,Info,105,4,3158,"Video.UI (10628,D,0) {12D3E340-232D-489E-87F3-8988660A1B68}: The database engine started a new instance (0). (Time=0 seconds) "
-Application,2023-09-21,23:33:08,CLIENT-PC,ESENT,General,4,Classic,Info,102,4,3157,"Video.UI (10628,P,98) {12D3E340-232D-489E-87F3-8988660A1B68}: The database engine (10.00.19045.0000) is starting a new instance (0)."
-Application,2023-09-21,23:33:02,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3156,Offline downlevel migration succeeded.
-Application,2023-09-21,23:32:56,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3155,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:55Z. Reason: RulesEngine.
-System,2023-09-21,23:32:38,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2195,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.Windows.Photos_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 4 keys and creating 2 modified pages.
-System,2023-09-21,23:32:26,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Installation, Started",Installation,43,4,2194,Installation Started: Windows has started installing the following update: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.397.1353.0)
-Application,2023-09-21,23:31:03,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3154,Offline downlevel migration succeeded.
-Application,2023-09-21,23:29:30,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3153,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:30Z. Reason: RulesEngine.
-Application,2023-09-21,23:28:59,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3152,Offline downlevel migration succeeded.
-Application,2023-09-21,23:28:33,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3151,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:33Z. Reason: RulesEngine.
-Application,2023-09-21,23:28:12,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3150,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-System,2023-09-21,23:27:35,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2193,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Settings\settings.dat was cleared updating 3 keys and creating 1 modified pages.
-Application,2023-09-21,23:27:28,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3149,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-System,2023-09-21,23:27:09,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7040,4,2192,The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
-System,2023-09-21,23:26:06,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Download, Started",Download,44,4,2191,Windows Update started downloading an update.
-Application,2023-09-21,23:24:41,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3148,Offline downlevel migration succeeded.
-Application,2023-09-21,23:24:35,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3147,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:35Z. Reason: RulesEngine.
-System,2023-09-21,23:24:09,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2190,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\SystemAppData\Helium\UserClasses.dat was cleared updating 1 keys and creating 1 modified pages.
-System,2023-09-21,23:24:09,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2189,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\SystemAppData\Helium\User.dat was cleared updating 8 keys and creating 1 modified pages.
-Application,2023-09-21,23:23:59,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3146,Offline downlevel migration succeeded.
-System,2023-09-21,23:23:28,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7040,4,2188,The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
-Application,2023-09-21,23:23:17,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3145,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:17Z. Reason: RulesEngine.
-Application,2023-09-21,23:22:34,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3144,Offline downlevel migration succeeded.
-Application,2023-09-21,23:21:54,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3143,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:53Z. Reason: RulesEngine.
-System,2023-09-21,23:21:29,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2187,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-Application,2023-09-21,23:21:09,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3142,Offline downlevel migration succeeded.
-System,2023-09-21,23:20:16,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2185,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.XboxApp_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 2 keys and creating 1 modified pages.
-System,2023-09-21,23:20:06,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2184,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.BingWeather_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 2 keys and creating 1 modified pages.
-Application,2023-09-21,23:19:24,CLIENT-PC,SecurityCenter,None,4,Classic,Info,15,4,3141,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
-System,2023-09-21,23:19:23,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2183,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.Microsoft3DViewer_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-Application,2023-09-21,23:19:22,CLIENT-PC,SecurityCenter,None,4,Classic,Info,1,4,3140,The Windows Security Center Service has started.
-System,2023-09-21,23:19:21,CLIENT-PC,Microsoft-Windows-DistributedCOM,None,3,Classic,Info,10016,3,2182,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID "
-System,2023-09-21,23:19:21,CLIENT-PC,Microsoft-Windows-DistributedCOM,None,3,Classic,Info,10016,3,2181,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID "
-System,2023-09-21,23:19:21,CLIENT-PC,Microsoft-Windows-DistributedCOM,None,3,Classic,Info,10016,3,2180,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID "
-System,2023-09-21,23:19:05,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2179,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.HEIFImageExtension_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-Application,2023-09-21,23:18:59,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3139,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:59Z. Reason: RulesEngine.
-System,2023-09-21,23:18:48,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2178,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.StorePurchaseApp_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-System,2023-09-21,23:18:39,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7040,4,2177,The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
-System,2023-09-21,23:18:32,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2176,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.WindowsStore_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 9 keys and creating 2 modified pages.
-System,2023-09-21,23:18:14,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2175,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.SkypeApp_kzf8qxf38zg5c\Settings\settings.dat was cleared updating 1 keys and creating 1 modified pages.
-Application,2023-09-21,23:18:09,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3138,Offline downlevel migration succeeded.
-System,2023-09-21,23:17:48,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2174,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\microsoft.windowscommunicationsapps_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 22 keys and creating 2 modified pages.
-Application,2023-09-21,23:17:48,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3137,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:16:48Z. Reason: RulesEngine.
-Application,2023-09-21,23:17:20,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8198,2,3136,"License Activation (slui.exe) failed with the following error code:"
-Application,2023-09-21,23:17:20,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3135,"The Software Protection service has completed licensing status check."
-Application,2023-09-21,23:17:20,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3134,"The Software Protection service has completed licensing status check."
-Application,2023-09-21,23:17:19,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,1014,2,3133,"Acquisition of End User License failed. hr=0xC004C008"
-Application,2023-09-21,23:17:19,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8200,2,3132,"License acquisition failure details. "
-System,2023-09-21,23:17:14,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2173,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Settings\settings.dat was cleared updating 5 keys and creating 1 modified pages.
-System,2023-09-21,23:17:09,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2172,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\Settings\settings.dat was cleared updating 35 keys and creating 3 modified pages.
-Application,2023-09-21,23:17:09,CLIENT-PC,Microsoft-Windows-Search,Search service,4,Classic,NOTE:  This dummy error message is necessary to force MC to output        the above defines inside the FACILITY_WINDOWS guard instead        of leaving it empty.,1003,4,3131,The Windows Search Service started.
-Application,2023-09-21,23:17:07,CLIENT-PC,ESENT,General,4,Classic,Info,326,4,3130,"SearchIndexer (676,D,50) Windows: The database engine attached a database (1, C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb). (Time=0 seconds) "
-Application,2023-09-21,23:17:07,CLIENT-PC,ESENT,General,4,Classic,Info,105,4,3129,"SearchIndexer (676,D,0) Windows: The database engine started a new instance (0). (Time=0 seconds) "
-Application,2023-09-21,23:17:07,CLIENT-PC,ESENT,Logging/Recovery,4,Classic,Info,302,4,3128,"SearchIndexer (676,U,98) Windows: The database engine has successfully completed recovery steps."
-Application,2023-09-21,23:17:07,CLIENT-PC,ESENT,Logging/Recovery,4,Classic,Info,301,4,3127,"SearchIndexer (676,R,98) Windows: The database engine has finished replaying logfile C:\ProgramData\Microsoft\Search\Data\Applications\Windows\edb.jtx. "
-Application,2023-09-21,23:17:07,CLIENT-PC,ESENT,Logging/Recovery,4,Classic,Info,300,4,3126,"SearchIndexer (676,R,98) Windows: The database engine is initiating recovery steps."
-Application,2023-09-21,23:17:07,CLIENT-PC,edgeupdate,None,4,Classic,Info,0,4,3125,Service stopped.
-Application,2023-09-21,23:17:06,CLIENT-PC,ESENT,General,4,Classic,Info,102,4,3124,"SearchIndexer (676,P,98) Windows: The database engine (10.00.19045.0000) is starting a new instance (0)."
-System,2023-09-21,23:17:04,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2171,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat was cleared updating 33 keys and creating 7 modified pages.
-System,2023-09-21,23:17:01,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2170,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Settings\settings.dat was cleared updating 3 keys and creating 1 modified pages.
-Application,2023-09-21,23:16:58,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3123,Offline downlevel migration succeeded.
-System,2023-09-21,23:16:41,CLIENT-PC,Microsoft-Windows-Winlogon,1101,4,None,Info,7001,4,2169,User Logon Notification for Customer Experience Improvement Program
-Application,2023-09-21,23:16:41,CLIENT-PC,Microsoft-Windows-Winlogon,None,4,Classic,None,6000,4,3122,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
-Application,2023-09-21,23:16:41,CLIENT-PC,Microsoft-Windows-Winlogon,None,4,Classic,None,6003,4,3121,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
-System,2023-09-21,23:16:38,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2168,The access history in hive \??\C:\Windows\system32\Microsoft\Protect\Recovery\Recovery.dat was cleared updating 0 keys and creating 0 modified pages.
-System,2023-09-21,23:16:38,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2167,The access history in hive \??\C:\Users\Communication_LTD\AppData\Local\Microsoft\Windows\UsrClass.dat was cleared updating 3038 keys and creating 528 modified pages.
-System,2023-09-21,23:16:38,CLIENT-PC,Microsoft-Windows-Kernel-General,None,4,None,Info,16,4,2166,The access history in hive \??\C:\Users\Communication_LTD\ntuser.dat was cleared updating 1673 keys and creating 219 modified pages.
-Application,2023-09-21,23:15:52,CLIENT-PC,Microsoft-Windows-Security-SPP,None,0,Classic,None,903,0,3120,The Software Protection service has stopped.
-Application,2023-09-21,23:15:52,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16384,4,3119,Successfully scheduled Software Protection service for re-start at 2023-09-22T20:14:52Z. Reason: RulesEngine.
-Setup,2023-09-21,23:15:28,CLIENT-PC,Microsoft-Windows-Servicing,1,0,None,Info,1,0,25,Initiating changes for package KB5030211. Current state is Absent. Target state is Installed. Client id: UpdateAgentLCU.
-System,2023-09-21,23:15:28,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7040,4,2165,The start type of the Windows Modules Installer service was changed from demand start to auto start.
-System,2023-09-21,23:15:26,CLIENT-PC,Microsoft-Windows-WindowsUpdateClient,Windows Update Agent,4,"Installation, Started",Installation,43,4,2164,Installation Started: Windows has started installing the following update: 2023-09 Cumulative Update for Windows 10 Version 22H2 for x64-based Systems (KB5030211)
-Application,2023-09-21,23:15:09,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8198,2,3118,"License Activation (slui.exe) failed with the following error code:"
-Application,2023-09-21,23:15:09,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3117,"The Software Protection service has completed licensing status check."
-Application,2023-09-21,23:15:08,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,1014,2,3116,"Acquisition of End User License failed. hr=0xC004C008"
-Application,2023-09-21,23:15:08,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8200,2,3115,"License acquisition failure details. "
-Application,2023-09-21,23:15:07,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8198,2,3114,"License Activation (slui.exe) failed with the following error code:"
-Application,2023-09-21,23:15:07,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3113,"The Software Protection service has completed licensing status check."
-Application,2023-09-21,23:14:59,CLIENT-PC,Microsoft-Windows-Security-SPP,None,0,Classic,None,902,0,3112,"The Software Protection service has started."
-Application,2023-09-21,23:14:59,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1003,4,3111,"The Software Protection service has completed licensing status check."
-Application,2023-09-21,23:14:58,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,1066,4,3110,"Initialization status for service objects."
-Application,2023-09-21,23:14:57,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,16394,4,3109,Offline downlevel migration succeeded.
-Application,2023-09-21,23:14:54,CLIENT-PC,Microsoft-Windows-Security-SPP,None,4,Classic,None,900,4,3108,"The Software Protection service is starting."
-Application,2023-09-21,23:14:43,CLIENT-PC,Microsoft-Windows-WMI,None,4,None,Info,5617,4,3107,Windows Management Instrumentation Service subsystems initialized successfully
-System,2023-09-21,23:14:42,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7040,4,2163,The start type of the Windows Modules Installer service was changed from auto start to demand start.
-System,2023-09-21,23:14:42,CLIENT-PC,Microsoft-Windows-Service Control Manager,None,4,Classic,The operation completed successfully.,7026,4,2162,"The following boot-start or system-start driver(s) did not load: "
-Application,2023-09-21,23:14:42,CLIENT-PC,Microsoft-Windows-WMI,None,4,None,Info,5611,4,3106,The Windows Management Instrumentation service has detected an inconsistent system shutdown.
-Application,2023-09-21,23:14:40,CLIENT-PC,Microsoft-Windows-WMI,None,4,None,Info,5615,4,3105,Windows Management Instrumentation Service started sucessfully
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-DHCPv6-Client,Service State Event,4,None,ServiceStart,51046,4,2161,DHCPv6 client service is started
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceShutdown,50103,4,2160,DHCPv4 client registered for shutdown notification
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-Dhcp-Client,Service State Event,4,None,ServiceStart,50036,4,2159,DHCPv4 client service is started
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2158,"File System Filter 'bindflt' (10.0, ‎2005‎-‎08‎-‎08T23:17:00.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2157,"File System Filter 'storqosflt' (10.0, ‎2007‎-‎04‎-‎09T21:08:30.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2156,"File System Filter 'CldFlt' (10.0, ‎2063‎-‎04‎-‎13T08:46:34.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,1,4,2155,"File System Filter 'CldFlt' (Version 10.0, ‎2063‎-‎04‎-‎13T08:46:34.000000000Z) unloaded successfully."
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2154,"File System Filter 'CldFlt' (10.0, ‎2063‎-‎04‎-‎13T08:46:34.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2153,"File System Filter 'wcifs' (10.0, ‎2102‎-‎01‎-‎13T08:06:12.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2152,"File System Filter 'luafv' (10.0, ‎1986‎-‎08‎-‎13T23:58:59.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:37,CLIENT-PC,EventLog,None,4,Classic,None,6013,4,2126,The system uptime is 17 seconds.
-System,2023-09-21,23:14:37,CLIENT-PC,EventLog,None,4,Classic,None,6005,4,2125,The Event log service was started.
-System,2023-09-21,23:14:37,CLIENT-PC,EventLog,None,4,Classic,None,6009,4,2124,Microsoft (R) Windows (R) 10.00. 19045  Multiprocessor Free.
-System,2023-09-21,23:14:37,CLIENT-PC,EventLog,None,2,Classic,None,6008,2,2123,The previous system shutdown at 2:02:03 AM on ‎9/‎19/‎2023 was unexpected.
-Application,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-User Profile Service,None,4,None,Info,1531,4,3104,The User Profile Service has started successfully.
-Security,2023-09-21,23:14:37,CLIENT-PC,Microsoft-Windows-Eventlog,Event processing,2,Audit Success,Info,1101,2,307318,Audit events have been dropped by the transport.  0
-System,2023-09-21,23:14:36,CLIENT-PC,Microsoft-Windows-Directory-Services-SAM,None,4,None,Info,16983,4,2151,"The security account manager is now logging periodic summary events for remote clients that call legacy password change or set RPC methods."
-System,2023-09-21,23:14:36,CLIENT-PC,Microsoft-Windows-Directory-Services-SAM,None,4,None,Info,16977,4,2150,"The domain is configured with the following minimum password length-related settings."
-System,2023-09-21,23:14:36,CLIENT-PC,Microsoft-Windows-Directory-Services-SAM,None,4,None,Info,16962,4,2149,"Remote calls to the SAM database are being restricted using the default security descriptor: O:SYG:SYD:(A;;RC;;;BA)."
-System,2023-09-21,23:14:36,CLIENT-PC,Microsoft-Windows-Wininit,None,4,None,Info,14,4,2148,"Credential Guard configuration: 0x0, 0"
-Security,2023-09-21,23:14:36,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307331,"A new process has been created."
-Security,2023-09-21,23:14:36,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307330,"A new process has been created."
-Security,2023-09-21,23:14:36,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307329,"A new process has been created."
-Security,2023-09-21,23:14:36,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307328,"A new process has been created."
-System,2023-09-21,23:14:35,CLIENT-PC,Microsoft-Windows-Kernel-General,11,4,Time,Info,24,4,2147,The time zone information was refreshed with exit reason 0. Current time zone bias is -180.
-Security,2023-09-21,23:14:35,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307327,"A new process has been created."
-Security,2023-09-21,23:14:35,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307326,"A new process has been created."
-Security,2023-09-21,23:14:35,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307325,"A new process has been created."
-Security,2023-09-21,23:14:35,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307324,"A new process has been created."
-Security,2023-09-21,23:14:35,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307323,"A new process has been created."
-System,2023-09-21,23:14:31,CLIENT-PC,Microsoft-Windows-Kernel-Power,220,4,None,Info,521,4,2146,Active battery count change.
-System,2023-09-21,23:14:31,CLIENT-PC,Microsoft-Windows-Kernel-Processor-Power,47,4,None,Info,55,4,2145,"Processor 1 in group 0 exposes the following power management capabilities:"
-System,2023-09-21,23:14:31,CLIENT-PC,Microsoft-Windows-Kernel-Processor-Power,47,4,None,Info,55,4,2144,"Processor 0 in group 0 exposes the following power management capabilities:"
-System,2023-09-21,23:14:31,CLIENT-PC,Microsoft-Windows-Kernel-Power,203,4,None,Info,172,4,2143,"Connectivity state in standby: Disconnected, Reason: NIC compliance"
-System,2023-09-21,23:14:31,CLIENT-PC,Microsoft-Windows-Kernel-Power,63,1,None,Info,41,1,2142,"The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly."
-System,2023-09-21,23:14:31,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2141,"File System Filter 'npsvctrig' (10.0, ‎2025‎-‎01‎-‎06T05:41:12.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:31,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2140,"File System Filter 'FileCrypt' (10.0, ‎2002‎-‎03‎-‎01T14:12:42.000000000Z) has successfully loaded and registered with Filter Manager."
-Security,2023-09-21,23:14:31,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307322,"A new process has been created."
-Security,2023-09-21,23:14:31,CLIENT-PC,Microsoft Windows security auditing.,Other Policy Change Events,0,Audit Success,Info,4826,0,307321,"Boot Configuration Data loaded."
-Security,2023-09-21,23:14:31,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4696,0,307320,"A primary token was assigned to process."
-Security,2023-09-21,23:14:31,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,307319,"A new process has been created."
-System,2023-09-21,23:14:30,CLIENT-PC,Microsoft-Windows-Ntfs,None,4,None,Info,98,4,2139,Volume C: (\Device\HarddiskVolume1) is healthy.  No action is needed.
-System,2023-09-21,23:14:25,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2138,"File System Filter 'WdFilter' (10.0, ‎2035‎-‎08‎-‎05T03:44:58.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:25,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2137,"File System Filter 'Wof' (10.0, ‎2023‎-‎04‎-‎23T05:17:53.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:25,CLIENT-PC,Microsoft-Windows-FilterManager,None,4,None,Info,6,4,2136,"File System Filter 'FileInfo' (10.0, ‎2062‎-‎12‎-‎23T08:21:06.000000000Z) has successfully loaded and registered with Filter Manager."
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-HAL,None,4,None,Info,16,4,2135,The iommu fault reporting has been initialized.
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-General,6,4,Time,Info,20,4,2134,"The leap second configuration has been updated."
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-Boot,58,4,None,Info,32,4,2133,The bootmgr spent 0 ms waiting for user input.
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-Boot,57,4,None,Info,18,4,2132,There are 0x1 boot options on this system.
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-Boot,33,4,None,Info,27,4,2131,The boot type was 0x0.
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-Boot,32,4,None,Info,25,4,2130,The boot menu policy was 0x1.
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-Boot,31,4,None,Info,20,4,2129,The last shutdown's success status was false. The last boot's success status was true.
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-Boot,62,4,None,Info,153,4,2128,Virtualization-based security (policies: 0) is disabled.
-System,2023-09-21,23:14:20,CLIENT-PC,Microsoft-Windows-Kernel-General,1,4,None,Info,12,4,2127,The operating system started at system time ‎2023‎-‎09‎-‎21T20:14:19.500000000Z.

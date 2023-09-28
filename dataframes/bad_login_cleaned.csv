@@ -1,0 +1,9 @@
+LogName,Date,Time,ComputerName,SourceName,TaskCategory,EventType,Keywords,OpCode,EventCode,Type,RecordNumber,Message
+Security,2023-09-26,18:01:50,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324891,"An account failed to log on."
+Application,2023-09-26,18:01:00,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8198,2,3478,"License Activation (slui.exe) failed with the following error code:"
+Application,2023-09-26,18:00:58,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,1014,2,3475,"Acquisition of End User License failed. hr=0x80072F8F"
+Security,2023-09-26,18:00:40,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324326,"An account failed to log on."
+Security,2023-09-26,18:00:05,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324289,"An account failed to log on."
+Security,2023-09-26,17:59:59,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324272,"An account failed to log on."
+Security,2023-09-26,17:59:46,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324255,"An account failed to log on."
+Security,2023-09-26,18:03:19,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,325351,An account failed to log on.

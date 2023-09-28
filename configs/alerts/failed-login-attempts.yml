@@ -1,0 +1,8 @@
+parameters:
+  LogName: 'Security'
+  EventCode: 4625
+  count: 2
+
+alert:
+  Message: 3 failed login attempts detected.
+  SeverityLevel: 2
