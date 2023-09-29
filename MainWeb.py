@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import pandas as pd
 import AnomalyDetection
 import MLDetection
+import CheckForAlerts
 
 app = Flask(__name__)
 
@@ -16,6 +17,31 @@ def index():
     df = pd.read_csv(r'dataframes\good_samples_cleaned.csv')
     return render_template('index.html', table=df.to_html(classes='table table-striped'))
 
+@app.route('/alerts', methods=['GET', 'POST'])
+def alerts():
+    if request.method == 'POST':
+        # Retrieve the date values from the form data
+        start_date = request.form.get('startDateInput')
+        end_date = request.form.get('endDateInput')
+        df = pd.read_csv(r'dataframes\bad_login_cleaned.csv')
+        alerts_list = CheckForAlerts.Run(df, start_date, end_date)
+        print(alerts_list)
+        return jsonify(alerts_list)
+    else:
+        df = pd.read_csv(r'dataframes\bad_login_cleaned.csv')
+        alerts_list = CheckForAlerts.Run(df)
+        return render_template('alerts.html', alerts_list=alerts_list)
+    
+@app.route('/create-new-alert', methods=['GET', 'POST'])
+def create_new_alert():
+    if request.method == 'POST':
+        # start_date = request.form.get('startDateInput')
+        # end_date = request.form.get('endDateInput')
+        
+        return render_template('create-new-alert.html', log_added_successfuly='True')
+    else:
+        return render_template('create-new-alert.html', log_added_successfuly='False')
+    
 @app.route('/anomaly-detection', methods=['GET', 'POST'])
 def anomaly_detection():
     if request.method == 'POST':

@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from datetime import datetime, time
 
-def process_alert_config(df):
+def Run(df, start_date = None, end_date = None): # find alerts in the dataframe
     paths, configs = load_files()
 
     # if there is a time rule, check that the rule was wrote correctly
@@ -12,11 +12,23 @@ def process_alert_config(df):
             ('end_time' in cfg['parameters'].keys() and 'start_time' not in cfg['parameters'].keys())):
             raise KeyError('Missing \'start_time\' or \'end_time\' in yaml file: ', paths[i])
 
+    # check if the date filter entered correctly
+    date_filter = False
+    if (start_date != None and end_date == None) or (start_date == None and end_date != None):
+        raise KeyError('start_date or end_date is missing.')
+    if (start_date != None and end_date != None):
+        date_filter = True
+
     # go for each rule and filter unmatched rows
+    alerts_list = []
     for cfg in configs:
         time_filter = False
         count_filter = -1
         df_result = df.copy() # reload the dataframe
+
+        if date_filter == True:
+            df_result = df_result.loc[(df['Date'] >= start_date) & (df['Date'] <= end_date)]
+
         for column, rule in cfg['parameters'].items():
             if column == 'count':
                 count_filter = rule
@@ -44,16 +56,12 @@ def process_alert_config(df):
         # print rows left after filtering
         if type(count_filter) == int and count_filter > 0:
             for i in range(0, int(len(df_result) / count_filter)):
-                print('Alert Found:', cfg['alert']['Message'])
-                print('Severity Level:', cfg['alert']['SeverityLevel'])
+                alerts_list.append([int(i + 1), df_result.iloc[i]['Date'], df_result.iloc[i]['Time'], cfg['alert']['Message'], cfg['alert']['SeverityLevel']])
         else:
             for i in range(0, len(df_result)):
-                print('Alert Found:', cfg['alert']['Message'])
-                print('Severity Level:', cfg['alert']['SeverityLevel'])
+                alerts_list.append([int(i + 1), df_result.iloc[i]['Date'], cfg['alert']['Message'], df_result.iloc[i]['Time'], cfg['alert']['SeverityLevel']])
 
-
-def convert_time_to_unit(time_str):
-    pass
+        return alerts_list
 
 
 def load_files():
@@ -78,7 +86,3 @@ def read_yaml(path):
     except Exception as e:
         print(f"Error loading YAML file {path}: {str(e)}")
         return None
-    
-
-df = pd.read_csv(r'dataframes\good_login_cleaned.csv')
-process_alert_config(df)
