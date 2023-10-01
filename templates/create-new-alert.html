@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create New Alert</title>
-    <!-- Include Bootstrap CSS for styling -->
+    <title>Alerts</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Custom CSS for table styling -->
+    <title>Create New Alert</title>
     <style>
         body {
             margin: 0;
@@ -15,11 +14,11 @@
             color: #ccc; /* Text color in dark mode */
             font-family: 'Arial', sans-serif; /* Modern font */
         }
+
         .container {
             max-width: none;
             height: 95vh; /* Set the container height to 95% of the viewport height */
             background-color: #121212; /* Slightly lighter background color for the container */
-            /* border-radius: 10px; Rounded corners for the container */
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
             overflow: hidden; /* Hide any overflow beyond the container */
             display: flex;
@@ -30,63 +29,167 @@
             color: #ffa500; /* Header text color in dark mode (orange) */
         }
 
-        /* Scrollbar styling for webkit-based browsers (Chrome, Safari) */
-        ::-webkit-scrollbar {
-            width: 12px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: #121212; /* Track background color */
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #333; /* Thumb color */
-            border-radius: 6px; /* Rounded corners for the thumb */
-        }
-
-        /* Scrollbar styling for Firefox */
-        scrollbar-width: thin;
-        scrollbar-color: #333 #121212; /* Thumb and track color */
-
-        /* Custom styles for form elements */
         .form-container {
             margin: 10px;
             padding: 10px;
         }
 
+        .form-container-input {
+            margin: 10px;
+            padding: 10px;
+        }
+
+
         .form-group {
+            display: flex;
             margin-bottom: 10px;
+            width: 100%;
         }
 
         .form-group select {
+            background-color: #333;
+            color: #ccc;
+            border: 1px solid #555;
+            padding: 8px; /* Added padding */
+            width: 200px; /* Set width to 200px for selects */
+            margin-right: 10px; /* Added margin to separate from the input */
+        }
+
+        .form-group input[type="text"] {
+            background-color: #333;
+            color: #ccc;
+            border: 1px solid #555;
+            flex: 1;
+            padding: 8px; /* Added padding */
+            width: 150px; /* Set width to 150px for text inputs */
+        }
+
+        .form-group-input {
+            display: flex;
+            margin-bottom: 10px;
             width: 100%;
         }
 
-        .form-group input {
-            width: 100%;
+        .form-group-input select {
+            background-color: #333;
+            color: #ccc;
+            border: 1px solid #555;
+            padding: 8px; /* Added padding */
+            width: 200px; /* Set width to 200px for selects */
+            margin-right: 10px; /* Added margin to separate from the input */
         }
 
-        #add-dropdown {
-            margin-top: 10px;
+        .form-group-input input[type="text"] {
+            background-color: #333;
+            color: #ccc;
+            border: 1px solid #555;
+            flex: 1;
+            padding: 8px; /* Added padding */
+            width: 150px; /* Set width to 150px for text inputs */
         }
-                /* Updated button style with a fixed width of 200px and a different dark theme */
+
         .options-button {
-            margin: 10px;
-            width: 170px; /* Fixed width of 200px */
-            padding: 5px; /* Adjust padding for button height */
-            font-size: 16px; /* Font size for the button text */
-            background-color: #2c3e50; /* Dark blue background color */
-            border: none; /* Remove the border for a cleaner look */
-            border-radius: 5px; /* Rounded corners for buttons */
-            color: #ecf0f1; /* Light text color for buttons */
+            margin-top: 10px;
+            width: 170px;
+            padding: 5px;
+            font-size: 16px;
+            background-color: #2c3e50;
+            border: none;
+            border-radius: 5px;
+            color: #ecf0f1;
             text-align: center;
             cursor: pointer;
             transition: background-color 0.3s ease;
-            white-space: nowrap; /* Prevent text from wrapping */
+            white-space: nowrap;
         }
 
         .options-button:hover {
-            background-color: #34495e; /* Slightly lighter blue background color on hover */
+            background-color: #34495e;
+        }
+
+        .remove-row {
+            background-color: #c0392b;
+            border: none;
+            border-radius: 5px;
+            color: #ecf0f1;
+            font-size: 14px;
+            padding: 5px 10px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .remove-row:hover {
+            background-color: #e74c3c;
+        }
+
+        #create-alert {
+            background-color: #27ae60; /* Green background color */
+            margin-left: 10px; /* Added margin to separate from the "Add Dropdown" button */
+        }
+
+        #create-alert:hover {
+            background-color: #219d53; /* Darker green on hover */
+        }
+        /* Styles for dropdown list and its options */
+        .form-group select {
+            background-color: #333;
+            color: #ccc;
+            border: 1px solid #555;
+            padding: 8px;
+            width: 200px;
+            margin-right: 10px;
+            /* Set dropdown arrow color */
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .form-group select option {
+            background-color: #333;
+            color: #ccc;
+            padding: 8px;
+        }
+
+        /* Styles for dropdown list when it is open */
+        .form-group select:focus {
+            outline: none;
+            border-color: #ffa500; /* Orange border color on focus */
+            box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Orange box shadow on focus */
+        }
+
+        /* Styles for dropdown list options when hovered */
+        .form-group select option:hover {
+            background-color: #555;
+        }
+        /* Styles for dropdown list and its options */
+        .form-group-input select {
+            background-color: #333;
+            color: #ccc;
+            border: 1px solid #555;
+            padding: 8px;
+            width: 200px;
+            margin-right: 10px;
+            /* Set dropdown arrow color */
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .form-group-input select option {
+            background-color: #333;
+            color: #ccc;
+            padding: 8px;
+        }
+
+        /* Styles for dropdown list when it is open */
+        .form-group-input select:focus {
+            outline: none;
+            border-color: #ffa500; /* Orange border color on focus */
+            box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Orange box shadow on focus */
+        }
+
+        /* Styles for dropdown list options when hovered */
+        .form-group-input select option:hover {
+            background-color: #555;
         }
     </style>
 </head>
@@ -95,63 +198,132 @@
     <div class="container">
         <br>
         <h1>Create New Alert:</h1>
-        <form id="alert-form">
+        <form id="alert-form" method="POST" action="/create-new-alert">
             <!-- Initial dropdown list and textbox -->
             <div class="form-container">
                 <div class="form-group">
-                    <div class="row">
-                        <div class="col-md-2"> <!-- Set the column width for the dropdown -->
-                            <label for="dropdown">Select column:</label>
-                            <select class="form-control" name="dropdown[]">
-                                <option value="LogName">LogName</option>
-                                <option value="Date">Date</option>
-                                <option value="Time">Time</option>
-                                <option value="ComputerName">ComputerName</option>
-                                <option value="SourceName">SourceName</option>
-                                <option value="TaskCategory">TaskCategory</option>
-                                <option value="EventType">EventType</option>
-                                <option value="Keywords">Keywords</option>
-                                <option value="OpCode">OpCode</option>
-                                <option value="EventCode">EventCode</option>
-                                <option value="Type">Type</option>
-                                <option value="RecordNumber">RecordNumber</option>
-                                <option value="Message">Message</option>
-                                <!-- Add other options here -->
-                            </select>
-                        </div>
-                        <div class="col-md-10"> <!-- Set the column width for the textbox -->
-                            <label for="textbox">Set value:</label>
-                            <input type="text" class="form-control" name="textbox[]">
-                        </div>
-                    </div>
+                    <select class="form-control" name="dropdown[]">
+                        <option value="" disabled hidden selected>Select column</option>
+                        <option value="LogName">LogName</option>
+                        <option value="Date">Date</option>
+                        <option value="LogName">LogName</option>
+                        <option value="Date">Date</option>
+                        <option value="Time">Time</option>
+                        <option value="ComputerName">ComputerName</option>
+                        <option value="SourceName">SourceName</option>
+                        <option value="TaskCategory">TaskCategory</option>
+                        <option value="EventType">EventType</option>
+                        <option value="Keywords">Keywords</option>
+                        <option value="OpCode">OpCode</option>
+                        <option value="EventCode">EventCode</option>
+                        <option value="Type">Type</option>
+                        <option value="RecordNumber">RecordNumber</option>
+                        <option value="Message">Message</option>
+                        <option value="count">count</option>
+                        <!-- Add other options here -->
+                    </select>
+                    <input type="text" class="form-control time-textbox" name="textbox[]" placeholder="Enter a value">
+                    <input type="text" class="form-control time-textbox" name="textbox[]" placeholder="Enter a value">
+                    <button type="button" class="remove-row">Remove</button>
+                </div>
+            </div>
+            <!-- File related inputs -->
+            <div class="form-container-input">
+                <div class="form-group-input">
+                    <input type="text" class="form-control time-textbox col-3 mr-2" name="file-name" placeholder="Enter a name for the file">
+                    <input type="text" class="form-control time-textbox col-9 mr-2" name="alert-message" placeholder="Enter a message">
+                    <select class="form-control text-center" name="severity_dropdown">
+                        <option value="" disabled hidden selected>Select Severity Level</option>
+                        <option value="Critical">Critical</option>
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                    </select>
                 </div>
             </div>
             <!-- Button to add more dropdown lists -->
-            <button type="button" class="options-button" id="add-dropdown">Add Dropdown</button>
-            <!-- Display the Pandas DataFrame as a Bootstrap table with horizontal and vertical scrollbars -->
-            <div class="table-responsive">
-                <!-- Your table content here -->
-            </div>
+            <button type="button" class="options-button" id="add-dropdown" margin="5px">Add Filter</button>
+            <!-- New "Create Alert" button -->
+            <button type="submit" class="options-button" id="create-alert">Create Alert</button>
         </form>
+        <br>
+        {% if Message %}
+            {% if OperationSuccessful == True %}
+            <div class="alert alert-success" role="alert">
+            {{ Message }}
+            </div>
+            {% else %}
+            <div class="alert alert-danger" role="alert">
+            {{ Message }}
+            </div>
+            {% endif %}
+        {% endif %}
     </div>
     <!-- Include jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Include Bootstrap JS for additional functionality (optional) -->
-    <!-- ... (Your existing script tags) ... -->
     <script>
-        // JavaScript to add more dropdown lists
+        // JavaScript to handle dropdown change event
         $(document).ready(function() {
+            // Function to show/hide additional textboxes and update placeholders
+            function toggleTimeTextboxes() {
+                var selectedOption = $(this).val();
+                var formGroup = $(this).closest('.form-group');
+                var textboxes = formGroup.find('.time-textbox');
+                
+                // Hide all textboxes
+                textboxes.hide();
+    
+                // Update placeholders and apply margin-right to the first textbox based on whether 'Time' is selected
+                if (selectedOption === 'Time') {
+                    textboxes.attr('placeholder', '00:00:00');
+                    textboxes.eq(0).show().css('margin-right', '10px');
+                    textboxes.eq(1).show();
+                } else {
+                    textboxes.attr('placeholder', 'Enter a value');
+                    textboxes.eq(0).show();
+                    textboxes.eq(1).hide();
+                }
+            }
+    
+            // Initial toggle based on the initial dropdown value
+            $('select[name="dropdown[]"]').each(toggleTimeTextboxes);
+    
+            // Handle change event of dropdowns
+            $(".form-container").on("change", 'select[name="dropdown[]"]', function() {
+                toggleTimeTextboxes.call(this); // Call the function with the appropriate context
+                // Handle the case when 'Time' is not selected
+                if ($(this).val() !== 'Time') {
+                    var textboxes = $(this).closest('.form-group').find('.time-textbox');
+                    textboxes.eq(0).show().css('margin-right', '0'); // Reset margin-right
+                    textboxes.eq(1).hide();
+                }
+            });
+    
+            // Rest of your code
             $("#add-dropdown").click(function() {
                 // Clone the last form-group div
-                var lastFormGroup = $(".form-container .form-group:last").clone();
+                var lastFormGroup = $(".form-group:last").clone();
                 // Clear the selected option in the cloned dropdown
                 lastFormGroup.find("select").val("");
                 // Clear the textbox value in the cloned form group
                 lastFormGroup.find("input").val("");
                 // Append the cloned form group to the container
                 lastFormGroup.appendTo(".form-container");
+                // Toggle textboxes, update placeholders, and apply margin-right in the cloned form group
+                lastFormGroup.find('select[name="dropdown[]"]').trigger("change");
+            });
+    
+            // JavaScript to remove rows when the "Remove" button is clicked
+            $(".form-container").on("click", ".remove-row", function() {
+                // Check if there is more than one .form-group element before removing
+                if ($(".form-group").length > 1) {
+                    // Remove the parent form-group when the "Remove" button is clicked
+                    $(this).closest(".form-group").remove();
+                } else {
+                    alert("You cannot remove the last row.");
+                }
             });
         });
-    </script>
+    </script>    
 </body>
 </html>

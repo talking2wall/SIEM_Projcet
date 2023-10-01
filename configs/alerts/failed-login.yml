@@ -1,0 +1,8 @@
+alert:
+  Message: A user was failed to login@!#@#$
+  SeverityLevel: Medium
+parameters:
+  EventCode: 4625
+  Type: 0
+  end_time: '21:00:00'
+  start_time: '18:00:00'

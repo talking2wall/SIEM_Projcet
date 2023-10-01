@@ -1,0 +1,8 @@
+alert:
+  Message: This is a custom alert1 !@#$%
+  SeverityLevel: null
+parameters:
+  RecordNumber: 324891
+  SourceName: Microsoft Windows security auditing.
+  end_time: '19:00:00'
+  start_time: '18:00:00'

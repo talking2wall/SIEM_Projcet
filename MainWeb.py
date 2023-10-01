@@ -3,6 +3,7 @@ import pandas as pd
 import AnomalyDetection
 import MLDetection
 import CheckForAlerts
+import CreateNewAlert
 
 app = Flask(__name__)
 
@@ -25,7 +26,6 @@ def alerts():
         end_date = request.form.get('endDateInput')
         df = pd.read_csv(r'dataframes\bad_login_cleaned.csv')
         alerts_list = CheckForAlerts.Run(df, start_date, end_date)
-        print(alerts_list)
         return jsonify(alerts_list)
     else:
         df = pd.read_csv(r'dataframes\bad_login_cleaned.csv')
@@ -35,12 +35,25 @@ def alerts():
 @app.route('/create-new-alert', methods=['GET', 'POST'])
 def create_new_alert():
     if request.method == 'POST':
-        # start_date = request.form.get('startDateInput')
-        # end_date = request.form.get('endDateInput')
-        
-        return render_template('create-new-alert.html', log_added_successfuly='True')
+        # Get the values from the form
+        dropdown_values = request.form.getlist('dropdown[]')
+        textbox_values = request.form.getlist('textbox[]')
+        file_name = request.form.get('file-name')
+        alert_message = request.form.get('alert-message')
+        severity_level = request.form.get('severity_dropdown')
+
+        # validate input
+        if len(dropdown_values) == 0 or len(textbox_values) == 0:
+            return render_template('create-new-alert.html', OperationSuccessful = False, Message ='Error: Please fill one or more filters.')
+
+        OperationMessage = CreateNewAlert.CreateAlert(dropdown_values, textbox_values, file_name, alert_message, severity_level)
+
+        if (OperationMessage == 'Successful'):
+            return render_template('create-new-alert.html', OperationSuccessful = True, Message = 'Alert created successfuly!')
+        else:
+            return render_template('create-new-alert.html', OperationSuccessful = False, Message = OperationMessage)
     else:
-        return render_template('create-new-alert.html', log_added_successfuly='False')
+        return render_template('create-new-alert.html', OperationSuccessful = False)
     
 @app.route('/anomaly-detection', methods=['GET', 'POST'])
 def anomaly_detection():

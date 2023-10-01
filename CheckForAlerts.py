@@ -59,9 +59,9 @@ def Run(df, start_date = None, end_date = None): # find alerts in the dataframe
                 alerts_list.append([int(i + 1), df_result.iloc[i]['Date'], df_result.iloc[i]['Time'], cfg['alert']['Message'], cfg['alert']['SeverityLevel']])
         else:
             for i in range(0, len(df_result)):
-                alerts_list.append([int(i + 1), df_result.iloc[i]['Date'], cfg['alert']['Message'], df_result.iloc[i]['Time'], cfg['alert']['SeverityLevel']])
+                alerts_list.append([int(i + 1), df_result.iloc[i]['Date'], df_result.iloc[i]['Time'], cfg['alert']['Message'], cfg['alert']['SeverityLevel']])
 
-        return alerts_list
+    return alerts_list
 
 
 def load_files():

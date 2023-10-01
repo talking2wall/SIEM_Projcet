@@ -150,10 +150,6 @@
                 $.ajax({
                     type: "POST",
                     url: "/alerts",
-                    data: {
-                        startDateInput: startDateInput,
-                        endDateInput: endDateInput
-                    },
                     success: function(response) {
                         // Clear the existing table rows
                         $("#alert-table tbody").empty();
