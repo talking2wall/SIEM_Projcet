@@ -4,6 +4,7 @@ import AnomalyDetection
 import MLDetection
 import CheckForAlerts
 import CreateNewAlert
+import Filter
 
 app = Flask(__name__)
 
@@ -70,16 +71,33 @@ def anomaly_detection():
 @app.route('/ml-detection', methods=['GET', 'POST'])
 def ml_detection():
     if request.method == 'POST':
-        threshold = float(request.form['threshold'])
-        df = pd.read_csv(r'dataframes\bad_samples_cleaned.csv')
-        df_detections = MLDetection.Run(df, threshold)
-        df_detections = df_detections[df_detections['IsMalicious'] == 'Yes']
-        # Convert the filtered data to HTML for rendering in the table
-        df_detections_filtered = df_detections.to_html(classes='table table-striped table-bordered')
-        # Return the filtered DataFrame as JSON response
+        if 'link_clicked' in request.form and request.form['link_clicked'] == 'true':
+            df = pd.read_csv(r'dataframes\good_samples_cleaned.csv')
+            df['Message'].replace(to_replace=[r"\\t|\\n|\\r", "\t|\n|\r"], value=["",""], regex=True, inplace=True)
+            df_html = df.to_html(classes='table table-striped table-bordered')
+            return jsonify(table=df_html)
+            
+        detector_algorithm = request.form.get('dropdown-detector')
+        threshold = float(request.form.get('threshold'))
+        dropdown_values = request.form.getlist('dropdown[]')
+        textbox_values = request.form.getlist('textbox[]')
+        df = pd.read_csv(r'dataframes\good_samples_cleaned.csv')
+        df['Message'].replace(to_replace=[r"\\t|\\n|\\r", "\t|\n|\r"], value=["",""], regex=True, inplace=True)
+        # remove the first two items of the template filter (caused of html filter row implemetation)
+        textbox_values.pop(0)
+        textbox_values.pop(0)
+        if detector_algorithm == 'File Encryption Detector':
+            df_detections = MLDetection.Run(df, threshold)
+            df_detections = df_detections[df_detections['IsMalicious'] == 'Yes']
+            df_detections_filtered = Filter.Filter(df_detections, dropdown_values, textbox_values)
+            df_detections_filtered_html = df_detections_filtered.to_html(classes='table table-striped table-bordered')
+            #print(df_detections_filtered_html)
+            return jsonify(table=df_detections_filtered_html)
+        else:
+            return jsonify(Message='Not implemnted yet.')
+
         return jsonify(table=df_detections_filtered)
     return render_template('ml-detection.html')
-
 
 if __name__ == "__main__":
     app.run(debug=True)
