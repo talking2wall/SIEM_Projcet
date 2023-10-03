@@ -1,0 +1,57 @@
+LogName,Date,Time,ComputerName,SourceName,TaskCategory,EventType,Keywords,OpCode,EventCode,Type,RecordNumber,Message
+Security,2023-09-26,18:01:50,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324891,"An account failed to log on."
+Application,2023-09-26,18:01:00,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,8198,2,3478,"License Activation (slui.exe) failed with the following error code:"
+Application,2023-09-26,18:00:58,CLIENT-PC,Microsoft-Windows-Security-SPP,None,2,Classic,None,1014,2,3475,"Acquisition of End User License failed. hr=0x80072F8F"
+Security,2023-09-26,18:00:40,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324326,"An account failed to log on."
+Security,2023-09-26,18:00:05,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324289,"An account failed to log on."
+Security,2023-09-26,17:59:59,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324272,"An account failed to log on."
+Security,2023-09-26,17:59:46,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,324255,"An account failed to log on."
+Security,2023-09-26,18:03:19,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Failure,Info,4625,0,325351,An account failed to log on.
+Security,2023-09-26,18:16:06,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,336562,The Windows Filtering Platform has permitted a connection.
+Security,2023-09-26,18:16:06,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,336563,The Windows Filtering Platform has permitted a connection.
+Security,2023-09-26,18:16:07,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Failure,Info,4673,0,336564,A privileged service was called.
+Security,2023-09-26,18:16:09,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,336565,The Windows Filtering Platform has permitted a connection.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Token Right Adjusted Events,0,Audit Success,Info,4703,0,336566,A token right was adjusted.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Token Right Adjusted Events,0,Audit Success,Info,4703,0,336567,A token right was adjusted.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Token Right Adjusted Events,0,Audit Success,Info,4703,0,336568,A token right was adjusted.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Token Right Adjusted Events,0,Audit Success,Info,4703,0,336569,A token right was adjusted.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Token Right Adjusted Events,0,Audit Success,Info,4703,0,336570,A token right was adjusted.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Token Right Adjusted Events,0,Audit Success,Info,4703,0,336571,A token right was adjusted.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Security System Extension,0,Audit Success,Info,4611,0,336572,A trusted logon process has been registered with the Local Security Authority.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Success,Info,4673,0,336573,A privileged service was called.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Credential Validation,0,Audit Success,Info,4776,0,336574,The computer attempted to validate the credentials for an account.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Success,Info,4648,0,336575,A logon was attempted using explicit credentials.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Success,Info,4624,0,336576,An account was successfully logged on.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Group Membership,0,Audit Success,Info,4627,0,336577,Group membership information.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Logon,0,Audit Success,Info,4624,0,336578,An account was successfully logged on.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Group Membership,0,Audit Success,Info,4627,0,336579,Group membership information.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Special Logon,0,Audit Success,Info,4672,0,336580,Special privileges assigned to new logon.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Security System Extension,0,Audit Success,Info,4611,0,336581,A trusted logon process has been registered with the Local Security Authority.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Success,Info,4673,0,336582,A privileged service was called.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Logoff,0,Audit Success,Info,4634,0,336583,An account was logged off.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Logoff,0,Audit Success,Info,4634,0,336584,An account was logged off.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Other Logon/Logoff Events,0,Audit Success,Info,4801,0,336585,The workstation was unlocked.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Failure,Info,4673,0,336586,A privileged service was called.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,336587,A new process has been created.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,336588,A new process has been created.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Failure,Info,4673,0,336589,A privileged service was called.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Process Termination,0,Audit Success,Info,4689,0,336590,A process has exited.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Failure,Info,4673,0,336591,A privileged service was called.
+Security,2023-09-26,18:16:11,CLIENT-PC,Microsoft Windows security auditing.,Process Termination,0,Audit Success,Info,4689,0,336592,A process has exited.
+Security,2023-09-26,18:16:12,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,336593,The Windows Filtering Platform has permitted a connection.
+Security,2023-09-26,18:16:13,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Failure,Info,4673,0,336594,A privileged service was called.
+Security,2023-09-26,18:16:16,CLIENT-PC,Microsoft Windows security auditing.,Process Termination,0,Audit Success,Info,4689,0,336595,A process has exited.
+Security,2023-09-26,18:16:19,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,336596,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-09-26,18:16:19,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,336597,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-09-26,18:16:19,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,336598,The Windows Filtering Platform has permitted a connection.
+Security,2023-09-26,18:16:20,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,336599,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-09-26,18:16:20,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,336600,The Windows Filtering Platform has permitted a connection.
+Security,2023-09-26,18:16:22,CLIENT-PC,Microsoft Windows security auditing.,Process Termination,0,Audit Success,Info,4689,0,336601,A process has exited.
+Security,2023-09-26,18:16:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,336602,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-09-26,18:16:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,336603,The Windows Filtering Platform has permitted a connection.
+Security,2023-09-26,18:16:26,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,336604,A new process has been created.
+Security,2023-09-26,18:16:26,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Failure,Info,4673,0,336605,A privileged service was called.
+Security,2023-09-26,18:16:26,CLIENT-PC,Microsoft Windows security auditing.,Process Termination,0,Audit Success,Info,4689,0,336606,A process has exited.
+Security,2023-09-26,18:16:27,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,336607,A new process has been created.
+Security,2023-09-26,18:16:27,CLIENT-PC,Microsoft Windows security auditing.,Sensitive Privilege Use,0,Audit Failure,Info,4673,0,336608,A privileged service was called.
+Security,2023-09-26,18:16:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,336609,The Windows Filtering Platform has permitted a bind to a local port.

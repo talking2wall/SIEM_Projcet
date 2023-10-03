@@ -1,0 +1,2498 @@
+"Access_Mask","Access_Reasons",Accesses,"Account_Domain","Account_Name","Additional_Information","Application_Name","Authentication_Package",ComputerName,"Creator_Process_ID","Creator_Process_Name","Destination_Address","Destination_Port",Direction,"Elevated_Token","Error_Code",EventCode,EventType,"Event_in_sequence","Exit_Status","Filter_Run_Time_ID","Group_Membership","Handle_ID","Impersonation_Level","Key_Length",Keywords,"Layer_Name","Layer_Run_Time_ID","Linked_Logon_ID",LogName,"Logon_Account","Logon_GUID","Logon_ID","Logon_Process","Logon_Process_Name","Logon_Type","Mandatory_Label",Message,"Network_Account_Domain","Network_Account_Name","Network_Address","New_Process_ID","New_Process_Name","Object_Name","Object_Server","Object_Type",OpCode,"Package_Name__NTLM_only_",Port,Privileges,"Privileges_Used_for_Access_Check","Process_Command_Line","Process_ID","Process_Name",Protocol,RecordNumber,"Resource_Attributes","Restricted_Admin_Mode","Restricted_SID_Count","Security_ID",Server,"Service_Name","Session_ID",SourceName,"Source_Address","Source_Network_Address","Source_Port","Source_Workstation","Target_Server_Name",TaskCategory,"Token_Elevation_Type","Transaction_ID","Transited_Services",Type,"Virtual_Account","Workstation_Name","_raw","_time","alert_time","date_hour","date_mday","date_minute","date_month","date_second","date_wday","date_year","date_zone",eventtype,"field_list{}","fields{}.Account_Domain","fields{}.Account_Name","fields{}.ComputerName","fields{}.EventCode","fields{}.EventType","fields{}.Keywords","fields{}.LogName","fields{}.Logon_ID","fields{}.Message","fields{}.OpCode","fields{}.Privileges","fields{}.RecordNumber","fields{}.Security_ID","fields{}.SourceName","fields{}.TaskCategory","fields{}.Type","fields{}._confstr","fields{}._eventtype_color","fields{}._indextime","fields{}._pre_msg","fields{}._raw","fields{}._serial","fields{}._si","fields{}._sourcetype","fields{}._time","fields{}.eventtype","fields{}.host","fields{}.index","fields{}.linecount","fields{}.punct","fields{}.source","fields{}.sourcetype","fields{}.splunk_server",host,"incident_id",index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group",timeendpos,timestartpos,title
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,"239.255.255.250",1900,Outbound,,,5156,0,,,68701,,,,,"Audit Success",Connect,48,,Security,,,,,,,,"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	68701
+	Layer Name:		Connect
+	Layer Run-Time ID:	48",,,,,,,,,Info,,,,,,7144,,17,336562,,,,,,,,"Microsoft Windows security auditing.","127.0.0.1",,54983,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:06 PM
+LogName=Security
+EventCode=5156
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336562
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	68701
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","2023-09-26T18:16:06.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==_______.\r\r_:\rt_:tt\rt_:t\\","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,"239.255.255.250",1900,Inbound,,,5156,0,,,65888,,,,,"Audit Success","Receive/Accept",44,,Security,,,,,,,,"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65888
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44",,,,,,,,,Info,,,,,,7144,,17,336563,,,,,,,,"Microsoft Windows security auditing.","127.0.0.1",,54983,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:06 PM
+LogName=Security
+EventCode=5156
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336563
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65888
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","2023-09-26T18:16:06.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==_______.\r\r_:\rt_:tt\rt_:t\\","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Failure",,,,Security,,,0x3E7,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	Security Account Manager
+	Service Name:	Security Account Manager
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege",,,,,,,,,Info,,,SeTcbPrivilege,,,0x294,"C:\Windows\System32\lsass.exe",,336564,,,,"S-1-5-18","Security Account Manager","Security Account Manager",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:07 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336564
+Keywords=Audit Failure
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	Security Account Manager
+	Service Name:	Security Account Manager
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege","2023-09-26T18:16:07.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt---\rt_:tt-$","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,"239.255.255.250",1900,Inbound,,,5156,0,,,65888,,,,,"Audit Success","Receive/Accept",44,,Security,,,,,,,,"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65888
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44",,,,,,,,,Info,,,,,,7144,,17,336565,,,,,,,,"Microsoft Windows security auditing.","127.0.0.1",,54983,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:09 PM
+LogName=Security
+EventCode=5156
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336565
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65888
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","2023-09-26T18:16:09.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==_______.\r\r_:\rt_:tt\rt_:t\\","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+WORKGROUP","CLIENT-PC$
+CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4703,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x3E7",,,,,"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			SeSecurityPrivilege
+
+Disabled Privileges:
+			-",,,,,,,,,Info,,,,,,0x1eac,"C:\Windows\System32\winlogon.exe",,336566,,,,"S-1-5-18
+S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Token Right Adjusted Events",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4703
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336566
+Keywords=Audit Success
+TaskCategory=Token Right Adjusted Events
+OpCode=Info
+Message=A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			SeSecurityPrivilege
+
+Disabled Privileges:
+			-","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=___==____.\r\r:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+WORKGROUP","CLIENT-PC$
+CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4703,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x3E7",,,,,"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			SeBackupPrivilege
+
+Disabled Privileges:
+			-",,,,,,,,,Info,,,,,,0x1eac,"C:\Windows\System32\winlogon.exe",,336567,,,,"S-1-5-18
+S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Token Right Adjusted Events",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4703
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336567
+Keywords=Audit Success
+TaskCategory=Token Right Adjusted Events
+OpCode=Info
+Message=A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			SeBackupPrivilege
+
+Disabled Privileges:
+			-","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=___==____.\r\r:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+WORKGROUP","CLIENT-PC$
+CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4703,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x3E7",,,,,"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			-
+
+Disabled Privileges:
+			SeBackupPrivilege",,,,,,,,,Info,,,,,,0x1eac,"C:\Windows\System32\winlogon.exe",,336568,,,,"S-1-5-18
+S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Token Right Adjusted Events",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4703
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336568
+Keywords=Audit Success
+TaskCategory=Token Right Adjusted Events
+OpCode=Info
+Message=A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			-
+
+Disabled Privileges:
+			SeBackupPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=___==____.\r\r:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+WORKGROUP","CLIENT-PC$
+CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4703,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x3E7",,,,,"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			-
+
+Disabled Privileges:
+			SeSecurityPrivilege",,,,,,,,,Info,,,,,,0x1eac,"C:\Windows\System32\winlogon.exe",,336569,,,,"S-1-5-18
+S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Token Right Adjusted Events",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4703
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336569
+Keywords=Audit Success
+TaskCategory=Token Right Adjusted Events
+OpCode=Info
+Message=A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			-
+
+Disabled Privileges:
+			SeSecurityPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=___==____.\r\r:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+WORKGROUP","CLIENT-PC$
+CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4703,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x3E7",,,,,"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			SeSecurityPrivilege
+
+Disabled Privileges:
+			-",,,,,,,,,Info,,,,,,0x1eac,"C:\Windows\System32\winlogon.exe",,336570,,,,"S-1-5-18
+S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Token Right Adjusted Events",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4703
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336570
+Keywords=Audit Success
+TaskCategory=Token Right Adjusted Events
+OpCode=Info
+Message=A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			SeSecurityPrivilege
+
+Disabled Privileges:
+			-","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=___==____.\r\r:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+WORKGROUP","CLIENT-PC$
+CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4703,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x3E7",,,,,"A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			-
+
+Disabled Privileges:
+			SeSecurityPrivilege",,,,,,,,,Info,,,,,,0x1eac,"C:\Windows\System32\winlogon.exe",,336571,,,,"S-1-5-18
+S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Token Right Adjusted Events",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4703
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336571
+Keywords=Audit Success
+TaskCategory=Token Right Adjusted Events
+OpCode=Info
+Message=A token right was adjusted.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Account:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:		0x1eac
+	Process Name:		C:\Windows\System32\winlogon.exe
+
+Enabled Privileges:
+			-
+
+Disabled Privileges:
+			SeSecurityPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=___==____.\r\r:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4611,0,,,,,,,,"Audit Success",,,,Security,,,0x3E7,,UserManager,,,"A trusted logon process has been registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Process Name:		UserManager",,,,,,,,,Info,,,,,,,,,336572,,,,"S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Security System Extension",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4611
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336572
+Keywords=Audit Success
+TaskCategory=Security System Extension
+OpCode=Info
+Message=A trusted logon process has been registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Process Name:		UserManager","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==___________.\r_________.\r\r","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Success",,,,Security,,,0x3E7,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	NT Local Security Authority / Authentication Service
+	Service Name:	LsaRegisterLogonProcess()
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege",,,,,,,,,Info,,,SeTcbPrivilege,,,0x294,"C:\Windows\System32\lsass.exe",,336573,,,,"S-1-5-18","NT Local Security Authority / Authentication Service","LsaRegisterLogonProcess()",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336573
+Keywords=Audit Success
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	NT Local Security Authority / Authentication Service
+	Service Name:	LsaRegisterLogonProcess()
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt---\rt_:tt-$","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,,"MICROSOFT_AUTHENTICATION_PACKAGE_V1_0","CLIENT-PC",,,,,,,0x0,4776,0,,,,,,,,"Audit Success",,,,Security,"Communication_LTD",,,,,,,"The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	Communication_LTD
+Source Workstation:	CLIENT-PC
+Error Code:	0x0",,,,,,,,,Info,,,,,,,,,336574,,,,,,,,"Microsoft Windows security auditing.",,,,"CLIENT-PC",,"Credential Validation",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4776
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336574
+Keywords=Audit Success
+TaskCategory=Credential Validation
+OpCode=Info
+Message=The computer attempted to validate the credentials for an account.
+
+Authentication Package:	MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+Logon Account:	Communication_LTD
+Source Workstation:	CLIENT-PC
+Error Code:	0x0","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==_________.\r\r_:t\r_:t\r_:t-\r_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+CLIENT-PC","CLIENT-PC$
+Communication_LTD",localhost,,,"CLIENT-PC",,,,,,,,4648,0,,,,,,,,"Audit Success",,,,Security,,"{00000000-0000-0000-0000-000000000000}
+{00000000-0000-0000-0000-000000000000}",0x3E7,,,,,"A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Account Whose Credentials Were Used:
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Target Server:
+	Target Server Name:	localhost
+	Additional Information:	localhost
+
+Process Information:
+	Process ID:		0x4f8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Network Address:	127.0.0.1
+	Port:			0
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account’s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.",,,"127.0.0.1",,,,,,Info,,0,,,,0x4f8,"C:\Windows\System32\svchost.exe",,336575,,,,"S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,localhost,Logon,,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4648
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336575
+Keywords=Audit Success
+TaskCategory=Logon
+OpCode=Info
+Message=A logon was attempted using explicit credentials.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Account Whose Credentials Were Used:
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Target Server:
+	Target Server Name:	localhost
+	Additional Information:	localhost
+
+Process Information:
+	Process ID:		0x4f8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Network Address:	127.0.0.1
+	Port:			0
+
+This event is generated when a process attempts to log on an account by explicitly specifying that account’s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_===______.\r\r:\rt_:tt---\rt_:tt-$","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+CLIENT-PC","CLIENT-PC$
+Communication_LTD",,,Negotiate,"CLIENT-PC",,,,,,Yes,,4624,0,,,,,,Impersonation,0,"Audit Success",,,0x46B25F,Security,,"{00000000-0000-0000-0000-000000000000}","0x3E7
+0x46B241",User32,,2,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+	Linked Logon ID:		0x46B25F
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x4f8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	CLIENT-PC
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","-","-",,,,,,,Info,"-",,,,,0x4f8,"C:\Windows\System32\svchost.exe",,336576,,"-",,"S-1-5-18
+S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,"127.0.0.1",0,,,Logon,,,"-",Information,No,"CLIENT-PC","09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4624
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336576
+Keywords=Audit Success
+TaskCategory=Logon
+OpCode=Info
+Message=An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		Yes
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+	Linked Logon ID:		0x46B25F
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x4f8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	CLIENT-PC
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_===_____.\r\r:\rt_:tt---\rt_:tt-$\r","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+CLIENT-PC","CLIENT-PC$
+Communication_LTD",,,,"CLIENT-PC",,,,,,,,4627,0,"1 of 1",,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x46B241",,,2,,"Group membership information.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Type:			2
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-21-1948427861-2696874323-1688284928-513}
+		%{S-1-1-0}
+		%{S-1-5-114}
+		%{S-1-5-32-544}
+		%{S-1-5-32-545}
+		%{S-1-5-4}
+		%{S-1-2-1}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-113}
+		%{S-1-2-0}
+		%{S-1-5-64-10}
+		%{S-1-16-12288}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.",,,,,,,,,Info,,,,,,,,,336577,,,,"S-1-5-18
+S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,"Group Membership",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4627
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336577
+Keywords=Audit Success
+TaskCategory=Group Membership
+OpCode=Info
+Message=Group membership information.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Type:			2
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-21-1948427861-2696874323-1688284928-513}
+		%{S-1-1-0}
+		%{S-1-5-114}
+		%{S-1-5-32-544}
+		%{S-1-5-32-545}
+		%{S-1-5-4}
+		%{S-1-2-1}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-113}
+		%{S-1-2-0}
+		%{S-1-5-64-10}
+		%{S-1-16-12288}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==__.\r\r:\rt_:tt---\rt_:tt-$\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+CLIENT-PC","CLIENT-PC$
+Communication_LTD",,,Negotiate,"CLIENT-PC",,,,,,No,,4624,0,,,,,,Impersonation,0,"Audit Success",,,0x46B241,Security,,"{00000000-0000-0000-0000-000000000000}","0x3E7
+0x46B25F",User32,,2,,"An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B25F
+	Linked Logon ID:		0x46B241
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x4f8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	CLIENT-PC
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","-","-",,,,,,,Info,"-",,,,,0x4f8,"C:\Windows\System32\svchost.exe",,336578,,"-",,"S-1-5-18
+S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,"127.0.0.1",0,,,Logon,,,"-",Information,No,"CLIENT-PC","09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4624
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336578
+Keywords=Audit Success
+TaskCategory=Logon
+OpCode=Info
+Message=An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		No
+	Elevated Token:		No
+
+Impersonation Level:		Impersonation
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B25F
+	Linked Logon ID:		0x46B241
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x4f8
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	CLIENT-PC
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_===_____.\r\r:\rt_:tt---\rt_:tt-$\r","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+CLIENT-PC","CLIENT-PC$
+Communication_LTD",,,,"CLIENT-PC",,,,,,,,4627,0,"1 of 1",,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x46B25F",,,2,,"Group membership information.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Type:			2
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B25F
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-21-1948427861-2696874323-1688284928-513}
+		%{S-1-1-0}
+		%{S-1-5-114}
+		%{S-1-5-32-544}
+		%{S-1-5-32-545}
+		%{S-1-5-4}
+		%{S-1-2-1}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-113}
+		%{S-1-2-0}
+		%{S-1-5-64-10}
+		%{S-1-16-8192}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.",,,,,,,,,Info,,,,,,,,,336579,,,,"S-1-5-18
+S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,"Group Membership",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4627
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336579
+Keywords=Audit Success
+TaskCategory=Group Membership
+OpCode=Info
+Message=Group membership information.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Type:			2
+
+New Logon:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B25F
+
+Event in sequence:		1 of 1
+
+Group Membership:			
+		%{S-1-5-21-1948427861-2696874323-1688284928-513}
+		%{S-1-1-0}
+		%{S-1-5-114}
+		%{S-1-5-32-544}
+		%{S-1-5-32-545}
+		%{S-1-5-4}
+		%{S-1-2-1}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-113}
+		%{S-1-2-0}
+		%{S-1-5-64-10}
+		%{S-1-16-8192}
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+This event is generated when the Audit Group Membership subcategory is configured.  The Logon ID field can be used to correlate this event with the corresponding user logon event as well as to any other security audit events generated during this logon session.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==__.\r\r:\rt_:tt---\rt_:tt-$\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4672,0,,,,,,,,"Audit Success",,,,Security,,,0x46B241,,,,,"Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+
+Privileges:		SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege",,,,,,,,,Info,,,SeSecurityPrivilege,,,,,,336580,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,"Special Logon",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4672
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336580
+Keywords=Audit Success
+TaskCategory=Special Logon
+OpCode=Info
+Message=Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+
+Privileges:		SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==_____.\r\r:\rt_:tt-------\rt_:","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4611,0,,,,,,,,"Audit Success",,,,Security,,,0x3E7,,UserManager,,,"A trusted logon process has been registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Process Name:		UserManager",,,,,,,,,Info,,,,,,,,,336581,,,,"S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Security System Extension",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4611
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336581
+Keywords=Audit Success
+TaskCategory=Security System Extension
+OpCode=Info
+Message=A trusted logon process has been registered with the Local Security Authority.
+This logon process will be trusted to submit logon requests.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Process Name:		UserManager","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==___________.\r_________.\r\r","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Success",,,,Security,,,0x3E7,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	NT Local Security Authority / Authentication Service
+	Service Name:	LsaRegisterLogonProcess()
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege",,,,,,,,,Info,,,SeTcbPrivilege,,,0x294,"C:\Windows\System32\lsass.exe",,336582,,,,"S-1-5-18","NT Local Security Authority / Authentication Service","LsaRegisterLogonProcess()",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336582
+Keywords=Audit Success
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	NT Local Security Authority / Authentication Service
+	Service Name:	LsaRegisterLogonProcess()
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt---\rt_:tt-$","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4634,0,,,,,,,,"Audit Success",,,,Security,,,0x46B25F,,,2,,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B25F
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.",,,,,,,,,Info,,,,,,,,,336583,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,Logoff,,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4634
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336583
+Keywords=Audit Success
+TaskCategory=Logoff
+OpCode=Info
+Message=An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B25F
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_===____.\r\r:\rt_:tt-------\rt_:tt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4634,0,,,,,,,,"Audit Success",,,,Security,,,0x46B241,,,2,,"An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.",,,,,,,,,Info,,,,,,,,,336584,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,Logoff,,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4634
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336584
+Keywords=Audit Success
+TaskCategory=Logoff
+OpCode=Info
+Message=An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x46B241
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_===____.\r\r:\rt_:tt-------\rt_:tt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4801,0,,,,,,,,"Audit Success",,,,Security,,,0x1332C3,,,,,"The workstation was unlocked.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+	Session ID:	2",,,,,,,,,Info,,,,,,,,,336585,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",,,2,"Microsoft Windows security auditing.",,,,,,"Other Logon/Logoff Events",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4801
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336585
+Keywords=Audit Success
+TaskCategory=Other Logon/Logoff Events
+OpCode=Info
+Message=The workstation was unlocked.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+	Session ID:	2","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_/_==___.\r\r:\rt_:tt-------\rt_:","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Failure",,,,Security,,,0x3E7,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	Security Account Manager
+	Service Name:	Security Account Manager
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege",,,,,,,,,Info,,,SeTcbPrivilege,,,0x294,"C:\Windows\System32\lsass.exe",,336586,,,,"S-1-5-18","Security Account Manager","Security Account Manager",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336586
+Keywords=Audit Failure
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Service:
+	Server:	Security Account Manager
+	Service Name:	Security Account Manager
+
+Process:
+	Process ID:	0x294
+	Process Name:	C:\Windows\System32\lsass.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt---\rt_:tt-$","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+CLIENT-PC","CLIENT-PC$
+Communication_LTD",,,,"CLIENT-PC",0x40c,"C:\Windows\System32\svchost.exe",,,,,,4688,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x1332C3",,,,"S-1-16-8192","A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	New Process ID:		0xc6c
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		S-1-16-8192
+	Creator Process ID:	0x40c
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.",,,,0xc6c,"C:\Windows\System32\taskhostw.exe",,,,Info,,,,,,,,,336587,,,,"S-1-5-18
+S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,"Process Creation","%%1938",,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336587
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	New Process ID:		0xc6c
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		S-1-16-8192
+	Creator Process ID:	0x40c
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==_____.\r\r_:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"WORKGROUP
+CLIENT-PC","CLIENT-PC$
+Communication_LTD",,,,"CLIENT-PC",0x304,"C:\Windows\System32\svchost.exe",,,,,,4688,0,,,,,,,,"Audit Success",,,,Security,,,"0x3E7
+0x1332C3",,,,"S-1-16-8192","A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	New Process ID:		0x1d98
+	New Process Name:	C:\Windows\System32\dllhost.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		S-1-16-8192
+	Creator Process ID:	0x304
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.",,,,0x1d98,"C:\Windows\System32\dllhost.exe",,,,Info,,,,,,,,,336588,,,,"S-1-5-18
+S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,"Process Creation","%%1938",,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336588
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	New Process ID:		0x1d98
+	New Process Name:	C:\Windows\System32\dllhost.exe
+	Token Elevation Type:	%%1938
+	Mandatory Label:		S-1-16-8192
+	Creator Process ID:	0x304
+	Creator Process Name:	C:\Windows\System32\svchost.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==_____.\r\r_:\rt_:tt---\rt_:tt-","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Failure",,,,Security,,,0x1332C3,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0xc6c
+	Process Name:	C:\Windows\System32\taskhostw.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege",,,,,,,,,Info,,,SeProfileSingleProcessPrivilege,,,0xc6c,"C:\Windows\System32\taskhostw.exe",,336589,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",Security,"-",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336589
+Keywords=Audit Failure
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0xc6c
+	Process Name:	C:\Windows\System32\taskhostw.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_:","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4689,0,,0x0,,,,,,"Audit Success",,,,Security,,,0x3E7,,,,,"A process has exited.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:	0x340
+	Process Name:	C:\Windows\System32\LogonUI.exe
+	Exit Status:	0x0",,,,,,,,,Info,,,,,,0x340,"C:\Windows\System32\LogonUI.exe",,336590,,,,"S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Process Termination",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4689
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336590
+Keywords=Audit Success
+TaskCategory=Process Termination
+OpCode=Info
+Message=A process has exited.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:	0x340
+	Process Name:	C:\Windows\System32\LogonUI.exe
+	Exit Status:	0x0","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==___.\r\r:\rt_:tt---\rt_:tt-$\rt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Failure",,,,Security,,,0x1332C3,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0x1d98
+	Process Name:	C:\Windows\System32\dllhost.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege",,,,,,,,,Info,,,SeProfileSingleProcessPrivilege,,,0x1d98,"C:\Windows\System32\dllhost.exe",,336591,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",Security,"-",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336591
+Keywords=Audit Failure
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0x1d98
+	Process Name:	C:\Windows\System32\dllhost.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_:","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4689,0,,0x0,,,,,,"Audit Success",,,,Security,,,0x1332C3,,,,,"A process has exited.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	Process ID:	0xc6c
+	Process Name:	C:\Windows\System32\taskhostw.exe
+	Exit Status:	0x0",,,,,,,,,Info,,,,,,0xc6c,"C:\Windows\System32\taskhostw.exe",,336592,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,"Process Termination",,,,Information,,,"09/26/2023 06:16:11 PM
+LogName=Security
+EventCode=4689
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336592
+Keywords=Audit Success
+TaskCategory=Process Termination
+OpCode=Info
+Message=A process has exited.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	Process ID:	0xc6c
+	Process Name:	C:\Windows\System32\taskhostw.exe
+	Exit Status:	0x0","2023-09-26T18:16:11.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==___.\r\r:\rt_:tt-------\rt_:tt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,"239.255.255.250",1900,Inbound,,,5156,0,,,65888,,,,,"Audit Success","Receive/Accept",44,,Security,,,,,,,,"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65888
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44",,,,,,,,,Info,,,,,,7144,,17,336593,,,,,,,,"Microsoft Windows security auditing.","127.0.0.1",,54983,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:12 PM
+LogName=Security
+EventCode=5156
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336593
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		7144
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Inbound
+	Source Address:		127.0.0.1
+	Source Port:		54983
+	Destination Address:	239.255.255.250
+	Destination Port:		1900
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	65888
+	Layer Name:		Receive/Accept
+	Layer Run-Time ID:	44","2023-09-26T18:16:12.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==_______.\r\r_:\rt_:tt\rt_:t\\","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Failure",,,,Security,,,0x1332C3,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0xb2c
+	Process Name:	C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege",,,,,,,,,Info,,,SeTcbPrivilege,,,0xb2c,"C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe",,336594,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",Security,"-",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:13 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336594
+Keywords=Audit Failure
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0xb2c
+	Process Name:	C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+
+Service Request Information:
+	Privileges:		SeTcbPrivilege","2023-09-26T18:16:13.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_:","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"CLIENT-PC","Communication_LTD",,,,"CLIENT-PC",,,,,,,,4689,0,,0x0,,,,,,"Audit Success",,,,Security,,,0x1332C3,,,,,"A process has exited.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	Process ID:	0x1d98
+	Process Name:	C:\Windows\System32\dllhost.exe
+	Exit Status:	0x0",,,,,,,,,Info,,,,,,0x1d98,"C:\Windows\System32\dllhost.exe",,336595,,,,"S-1-5-21-1948427861-2696874323-1688284928-1000",,,,"Microsoft Windows security auditing.",,,,,,"Process Termination",,,,Information,,,"09/26/2023 06:16:16 PM
+LogName=Security
+EventCode=4689
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336595
+Keywords=Audit Success
+TaskCategory=Process Termination
+OpCode=Info
+Message=A process has exited.
+
+Subject:
+	Security ID:		S-1-5-21-1948427861-2696874323-1688284928-1000
+	Account Name:		Communication_LTD
+	Account Domain:		CLIENT-PC
+	Logon ID:		0x1332C3
+
+Process Information:
+	Process ID:	0x1d98
+	Process Name:	C:\Windows\System32\dllhost.exe
+	Exit Status:	0x0","2023-09-26T18:16:16.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==___.\r\r:\rt_:tt-------\rt_:tt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,,,,,,5158,0,,,0,,,,,"Audit Success","Resource Assignment",36,,Security,,,,,,,,"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		2032
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		64395
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36",,,,,,,,,Info,,,,,,2032,,17,336596,,,,,,,,"Microsoft Windows security auditing.","::",,64395,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:19 PM
+LogName=Security
+EventCode=5158
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336596
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		2032
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		64395
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","2023-09-26T18:16:19.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==___________.\r\r_:\rt_:tt\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,,,,,,5158,0,,,0,,,,,"Audit Success","Resource Assignment",38,,Security,,,,,,,,"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		2032
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		64395
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	38",,,,,,,,,Info,,,,,,2032,,17,336597,,,,,,,,"Microsoft Windows security auditing.","::",,64395,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:19 PM
+LogName=Security
+EventCode=5158
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336597
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		2032
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		64395
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	38","2023-09-26T18:16:19.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==___________.\r\r_:\rt_:tt\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,"192.168.0.1",53,Outbound,,,5156,0,,,68697,,,,,"Audit Success",Connect,48,,Security,,,,,,,,"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		2032
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.5.5
+	Source Port:		64395
+	Destination Address:	192.168.0.1
+	Destination Port:		53
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	68697
+	Layer Name:		Connect
+	Layer Run-Time ID:	48",,,,,,,,,Info,,,,,,2032,,17,336598,,,,,,,,"Microsoft Windows security auditing.","10.0.5.5",,64395,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:19 PM
+LogName=Security
+EventCode=5156
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336598
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		2032
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.5.5
+	Source Port:		64395
+	Destination Address:	192.168.0.1
+	Destination Port:		53
+	Protocol:		17
+
+Filter Information:
+	Filter Run-Time ID:	68697
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","2023-09-26T18:16:19.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==_______.\r\r_:\rt_:tt\rt_:t\\","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe",,"CLIENT-PC",,,,,,,,5158,0,,,0,,,,,"Audit Success","Resource Assignment",36,,Security,,,,,,,,"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		49994
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36",,,,,,,,,Info,,,,,,3140,,6,336599,,,,,,,,"Microsoft Windows security auditing.","0.0.0.0",,49994,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:20 PM
+LogName=Security
+EventCode=5158
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336599
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		49994
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","2023-09-26T18:16:20.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==___________.\r\r_:\rt_:tt\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe",,"CLIENT-PC",,,"10.0.5.4",9997,Outbound,,,5156,0,,,68697,,,,,"Audit Success",Connect,48,,Security,,,,,,,,"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.5.5
+	Source Port:		49994
+	Destination Address:	10.0.5.4
+	Destination Port:		9997
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	68697
+	Layer Name:		Connect
+	Layer Run-Time ID:	48",,,,,,,,,Info,,,,,,3140,,6,336600,,,,,,,,"Microsoft Windows security auditing.","10.0.5.5",,49994,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:20 PM
+LogName=Security
+EventCode=5156
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336600
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.5.5
+	Source Port:		49994
+	Destination Address:	10.0.5.4
+	Destination Port:		9997
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	68697
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","2023-09-26T18:16:20.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==_______.\r\r_:\rt_:tt\rt_:t\\","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,WORKGROUP,"CLIENT-PC$",,,,"CLIENT-PC",,,,,,,,4689,0,,0x0,,,,,,"Audit Success",,,,Security,,,0x3E7,,,,,"A process has exited.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:	0xa84
+	Process Name:	C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+	Exit Status:	0x0",,,,,,,,,Info,,,,,,0xa84,"C:\Program Files (x86)\Google\Update\GoogleUpdate.exe",,336601,,,,"S-1-5-18",,,,"Microsoft Windows security auditing.",,,,,,"Process Termination",,,,Information,,,"09/26/2023 06:16:22 PM
+LogName=Security
+EventCode=4689
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336601
+Keywords=Audit Success
+TaskCategory=Process Termination
+OpCode=Info
+Message=A process has exited.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		CLIENT-PC$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Process Information:
+	Process ID:	0xa84
+	Process Name:	C:\Program Files (x86)\Google\Update\GoogleUpdate.exe
+	Exit Status:	0x0","2023-09-26T18:16:22.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==___.\r\r:\rt_:tt---\rt_:tt-$\rt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe",,"CLIENT-PC",,,,,,,,5158,0,,,0,,,,,"Audit Success","Resource Assignment",36,,Security,,,,,,,,"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		49995
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36",,,,,,,,,Info,,,,,,3140,,6,336602,,,,,,,,"Microsoft Windows security auditing.","0.0.0.0",,49995,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:25 PM
+LogName=Security
+EventCode=5158
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336602
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Source Address:		0.0.0.0
+	Source Port:		49995
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","2023-09-26T18:16:25.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==___________.\r\r_:\rt_:tt\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe",,"CLIENT-PC",,,"10.0.5.4",8089,Outbound,,,5156,0,,,68697,,,,,"Audit Success",Connect,48,,Security,,,,,,,,"The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.5.5
+	Source Port:		49995
+	Destination Address:	10.0.5.4
+	Destination Port:		8089
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	68697
+	Layer Name:		Connect
+	Layer Run-Time ID:	48",,,,,,,,,Info,,,,,,3140,,6,336603,,,,,,,,"Microsoft Windows security auditing.","10.0.5.5",,49995,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:25 PM
+LogName=Security
+EventCode=5156
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336603
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a connection.
+
+Application Information:
+	Process ID:		3140
+	Application Name:	\device\harddiskvolume1\program files\splunkuniversalforwarder\bin\splunkd.exe
+
+Network Information:
+	Direction:		Outbound
+	Source Address:		10.0.5.5
+	Source Port:		49995
+	Destination Address:	10.0.5.4
+	Destination Port:		8089
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	68697
+	Layer Name:		Connect
+	Layer Run-Time ID:	48","2023-09-26T18:16:25.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==_______.\r\r_:\rt_:tt\rt_:t\\","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"NT SERVICE
+-","SplunkForwarder
+-",,,,"CLIENT-PC",0xc44,"C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe",,,,,,4688,0,,,,,,,,"Audit Success",,,,Security,,,"0x1BB01
+0x0",,,,"S-1-16-12288","A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x3f0
+	New Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0xc44
+	Creator Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.",,,,0x3f0,"C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe",,,,Info,,,,,,,,,336604,,,,"S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+S-1-0-0",,,,"Microsoft Windows security auditing.",,,,,,"Process Creation","%%1936",,,Information,,,"09/26/2023 06:16:26 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336604
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x3f0
+	New Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0xc44
+	Creator Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","2023-09-26T18:16:26.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==_____.\r\r_:\rt_:tt--------\rt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"NT SERVICE",SplunkForwarder,,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Failure",,,,Security,,,0x1BB01,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0x3f0
+	Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege",,,,,,,,,Info,,,SeProfileSingleProcessPrivilege,,,0x3f0,"C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe",,336605,,,,"S-1-5-80-972488765-139171986-783781252-3188962990-3730692313",Security,"-",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:26 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336605
+Keywords=Audit Failure
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0x3f0
+	Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege","2023-09-26T18:16:26.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt--------\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"NT SERVICE",SplunkForwarder,,,,"CLIENT-PC",,,,,,,,4689,0,,0x1,,,,,,"Audit Success",,,,Security,,,0x1BB01,,,,,"A process has exited.
+
+Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Process Information:
+	Process ID:	0x3f0
+	Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+	Exit Status:	0x1",,,,,,,,,Info,,,,,,0x3f0,"C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe",,336606,,,,"S-1-5-80-972488765-139171986-783781252-3188962990-3730692313",,,,"Microsoft Windows security auditing.",,,,,,"Process Termination",,,,Information,,,"09/26/2023 06:16:26 PM
+LogName=Security
+EventCode=4689
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336606
+Keywords=Audit Success
+TaskCategory=Process Termination
+OpCode=Info
+Message=A process has exited.
+
+Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Process Information:
+	Process ID:	0x3f0
+	Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+	Exit Status:	0x1","2023-09-26T18:16:26.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==___.\r\r:\rt_:tt--------\rt_:t","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"NT SERVICE
+-","SplunkForwarder
+-",,,,"CLIENT-PC",0xc44,"C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe",,,,,,4688,0,,,,,,,,"Audit Success",,,,Security,,,"0x1BB01
+0x0",,,,"S-1-16-12288","A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x13d8
+	New Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0xc44
+	Creator Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.",,,,0x13d8,"C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe",,,,Info,,,,,,,,,336607,,,,"S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+S-1-0-0",,,,"Microsoft Windows security auditing.",,,,,,"Process Creation","%%1936",,,Information,,,"09/26/2023 06:16:27 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336607
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x13d8
+	New Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+	Token Elevation Type:	%%1936
+	Mandatory Label:		S-1-16-12288
+	Creator Process ID:	0xc44
+	Creator Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.","2023-09-26T18:16:27.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=_==_____.\r\r_:\rt_:tt--------\rt","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,"NT SERVICE",SplunkForwarder,,,,"CLIENT-PC",,,,,,,,4673,0,,,,,,,,"Audit Failure",,,,Security,,,0x1BB01,,,,,"A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0x13d8
+	Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege",,,,,,,,,Info,,,SeProfileSingleProcessPrivilege,,,0x13d8,"C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe",,336608,,,,"S-1-5-80-972488765-139171986-783781252-3188962990-3730692313",Security,"-",,"Microsoft Windows security auditing.",,,,,,"Sensitive Privilege Use",,,,Information,,,"09/26/2023 06:16:27 PM
+LogName=Security
+EventCode=4673
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336608
+Keywords=Audit Failure
+TaskCategory=Sensitive Privilege Use
+OpCode=Info
+Message=A privileged service was called.
+
+Subject:
+	Security ID:		S-1-5-80-972488765-139171986-783781252-3188962990-3730692313
+	Account Name:		SplunkForwarder
+	Account Domain:		NT SERVICE
+	Logon ID:		0x1BB01
+
+Service:
+	Server:	Security
+	Service Name:	-
+
+Process:
+	Process ID:	0x13d8
+	Process Name:	C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+
+Service Request Information:
+	Privileges:		SeProfileSingleProcessPrivilege","2023-09-26T18:16:27.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==____.\r\r:\rt_:tt--------\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,
+,,,,,,"\device\harddiskvolume1\windows\system32\svchost.exe",,"CLIENT-PC",,,,,,,,5158,0,,,0,,,,,"Audit Success","Resource Assignment",36,,Security,,,,,,,,"The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		2072
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		49996
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36",,,,,,,,,Info,,,,,,2072,,6,336609,,,,,,,,"Microsoft Windows security auditing.","::",,49996,,,"Filtering Platform Connection",,,,Information,,,"09/26/2023 06:16:27 PM
+LogName=Security
+EventCode=5158
+EventType=0
+ComputerName=CLIENT-PC
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=336609
+Keywords=Audit Success
+TaskCategory=Filtering Platform Connection
+OpCode=Info
+Message=The Windows Filtering Platform has permitted a bind to a local port.
+
+Application Information:
+	Process ID:		2072
+	Application Name:	\device\harddiskvolume1\windows\system32\svchost.exe
+
+Network Information:
+	Source Address:		::
+	Source Port:		49996
+	Protocol:		6
+
+Filter Information:
+	Filter Run-Time ID:	0
+	Layer Name:		Resource Assignment
+	Layer Run-Time ID:	36","2023-09-26T18:16:27.000+03:00",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CLIENT-PC",,main,,"//_::_====-=___.===_=__==___________.\r\r_:\rt_:tt\rt_","WinEventLog:Security","WinEventLog:Security",SIEM,,,,

@@ -1,0 +1,301 @@
+LogName,Date,Time,ComputerName,SourceName,TaskCategory,EventType,Keywords,OpCode,EventCode,Type,RecordNumber,Message
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,182305,A new process has been created.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182306,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182307,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182308,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182309,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Failure,Info,5157,0,182310,The Windows Filtering Platform has blocked a connection.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182311,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182312,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182313,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182314,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182315,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182316,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,182317,A new process has been created.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Process Creation,0,Audit Success,Info,4688,0,182322,A new process has been created.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182324,The handle to an object was closed.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182328,The handle to an object was closed.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182329,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Failure,Info,5157,0,182330,The Windows Filtering Platform has blocked a connection.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182331,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182332,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182333,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182334,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182335,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182336,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182337,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182338,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182339,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:24,CLIENT-PC,Microsoft Windows security auditing.,Process Termination,0,Audit Success,Info,4689,0,182340,A process has exited.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182341,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Failure,Info,5157,0,182342,The Windows Filtering Platform has blocked a connection.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182343,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182344,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182345,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182346,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182347,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182348,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182349,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182350,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182351,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182352,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182353,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182354,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182355,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182356,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182357,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Failure,Info,5157,0,182358,The Windows Filtering Platform has blocked a connection.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182359,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182360,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182361,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:25,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182362,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182363,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182364,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182365,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182366,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182367,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Failure,Info,5157,0,182368,The Windows Filtering Platform has blocked a connection.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182369,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182370,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182371,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182372,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182373,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182375,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182377,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182379,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182383,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182384,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182385,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182387,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,File System,0,Audit Success,Info,4658,0,182392,The handle to an object was closed.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182396,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182397,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182398,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182399,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182400,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182401,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182402,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182403,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182404,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:26,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182405,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182406,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182407,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182408,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182409,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182410,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182411,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182412,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182413,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182414,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182415,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182416,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182417,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182418,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182419,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182420,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182421,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182422,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182423,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182424,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:27,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182425,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182426,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182427,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182428,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182429,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182430,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182431,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182432,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182433,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182434,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182435,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182436,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182437,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182438,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182439,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182440,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182441,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182442,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182443,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182444,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:28,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182445,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182446,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182447,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182448,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182449,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182450,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182451,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182452,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182453,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182454,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182455,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182456,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182457,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182458,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182459,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182460,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182461,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182462,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182463,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182464,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:29,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182465,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182466,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182467,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182468,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182469,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182470,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182471,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182472,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182473,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182474,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182475,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182476,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182477,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182478,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182479,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182480,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182481,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182482,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182483,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182484,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:30,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182485,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182486,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182487,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182488,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182489,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182490,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182491,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182492,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182493,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182494,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182495,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182496,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182497,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182498,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182499,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182500,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182501,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182502,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182503,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182504,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:31,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182505,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182506,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182507,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182508,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182509,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182510,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182511,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182512,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182513,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182514,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182515,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182516,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182517,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182518,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182519,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182520,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182521,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182522,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182523,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182524,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:32,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182525,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182526,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182527,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182528,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182529,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182530,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182531,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182532,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182533,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182534,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182535,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182536,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182537,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182538,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182539,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182540,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182541,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182542,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182543,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182544,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:33,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182545,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182546,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182547,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182548,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182549,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182550,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182551,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182552,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182553,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182554,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182555,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,182556,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,182557,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,182558,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,182559,The Windows Filtering Platform has permitted a connection.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,182560,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,182561,The Windows Filtering Platform has permitted a connection.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182562,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182563,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182564,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182565,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182566,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182567,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182568,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182569,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182570,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182571,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,182572,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,182573,The Windows Filtering Platform has permitted a connection.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,182574,The Windows Filtering Platform has permitted a bind to a local port.
+Security,2023-08-26,17:20:34,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5156,0,182575,The Windows Filtering Platform has permitted a connection.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182576,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182577,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182578,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182579,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182580,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182581,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182582,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182583,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182584,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182585,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182586,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182587,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182588,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182589,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182590,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182591,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182592,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182593,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182594,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:35,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182595,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182596,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182597,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182598,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182599,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182600,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182601,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182602,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182603,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182604,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182605,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182606,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182607,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182608,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182609,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182610,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182611,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182612,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182613,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182614,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:36,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182615,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182616,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182617,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182618,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182619,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182620,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182621,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182622,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182623,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182624,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Packet Drop,0,Audit Failure,Info,5152,0,182625,The Windows Filtering Platform has blocked a packet.
+Security,2023-08-26,17:20:37,CLIENT-PC,Microsoft Windows security auditing.,Filtering Platform Connection,0,Audit Success,Info,5158,0,182626,The Windows Filtering Platform has permitted a bind to a local port.

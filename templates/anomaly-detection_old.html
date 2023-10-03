@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomaly Detection</title>
+    <!-- Include Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS for page styling -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a; /* Dark background color for the body */
+            color: #ccc; /* Text color in dark mode */
+            font-family: 'Arial', sans-serif; /* Modern font */
+        }
+        .container {
+            max-width: none;
+            height: 90vh; /* Set the container height to 95% of the viewport height */
+            background-color: #121212; /* Slightly lighter background color for the container */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
+            overflow: hidden; /* Hide any overflow beyond the container */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+            /* justify-content: center; Center content vertically */
+        }
+        h1 {
+            color: #ffa500; /* Header text color in dark mode (orange) */
+        }
+        .options-container {
+            text-align: center;
+        }
+        .options-button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #1a1a1a; /* Darker background color for buttons */
+            border: 1px solid #333; /* Border color for buttons */
+            border-radius: 5px; /* Rounded corners for buttons */
+            color: #fff; /* Text color for buttons */
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .options-button:hover {
+            background-color: #333; /* Darker background color on hover */
+        }
+        /* Scrollbar styling for webkit-based browsers (Chrome, Safari) */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #121212; /* Track background color */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333; /* Thumb color */
+            border-radius: 6px; /* Rounded corners for the thumb */
+        }
+        /* Scrollbar styling for Firefox */
+        scrollbar-width: thin;
+        scrollbar-color: #333 #121212; /* Thumb and track color */
+        table {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: auto; /* Add horizontal scrollbar when table overflows */
+        }
+        .table-responsive {
+            border-radius: 5px; /* Slightly rounded table edges */
+            overflow: auto; /* Add both horizontal and vertical scrollbars when table overflows */
+            max-height: 100%; /* Set a maximum height for vertical scrolling (adjust as needed) */
+        }
+        th, td {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            padding: 10px;
+            font-size: 14px; /* Font size for better readability */
+            background-color: #1a1a1a; /* Darker background color for table cells */
+            border: 1px solid #333; /* Border color for table cells */
+            color: #fff; /* Text color in table cells */
+            text-align: left; /* Justify text to the left */
+        }
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="container">
+        <br>
+        <h1>Select Option</h1>
+        <div class="options-container">
+            <button class="options-button" id="run-button">Run</button>
+            <button class="options-button" id="load-dataset-button">Load Dataset</button>
+            <label for="threshold">Set Threshold (<):</label>
+            <input type="number" id="threshold" name="threshold" step="0.01" value="-0.01">
+        </div>
+        <!-- Add this div to display the table -->
+        <div id="table-container" class="table-responsive">
+            <!-- Table content loaded via Jinja2 -->
+            {{ table | safe }}
+        </div>
+    </div>
+    <!-- Include Bootstrap JS for additional functionality (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // JavaScript to handle button clicks and send individual POST requests
+        $(document).ready(function() {
+            // Function to update the table with HTML content
+            function updateTable(tableHTML) {
+                $("#table-container").html(tableHTML);
+            }
+
+            // Handle "Run" button click
+            $("#run-button").click(function() {
+                $.ajax({
+                    type: "POST",
+                    url: "/anomaly-detection", // Replace with the actual endpoint URL for "Run"
+                    data: {
+                        threshold: $("#threshold").val()
+                    },
+                    success: function(response) {
+                        // Update the table with the filtered DataFrame HTML
+                        updateTable(response.table);
+                        console.log("Run request successful.");
+                    },
+                    error: function(error) {
+                        console.error("Error sending Run request:", error);
+                    }
+                });
+            });
+
+            // Handle "Load Dataset" button click
+            $("#load-dataset-button").click(function() {
+                $.ajax({
+                    type: "POST",
+                    url: "/load-dataset-endpoint", // Replace with the actual endpoint URL for "Load Dataset"
+                    success: function(response) {
+                        // Update the table with the loaded dataset HTML
+                        updateTable(response.table);
+                        console.log("Load Dataset request successful.");
+                    },
+                    error: function(error) {
+                        console.error("Error sending Load Dataset request:", error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

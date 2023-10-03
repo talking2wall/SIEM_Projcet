@@ -331,10 +331,15 @@
         $(document).ready(function() {
             // Handle "Show last scan" link click
             $("#show-last-scan-link").click(function(event) {
+                // Get the selected value of the 'dropdown-detector' select component
+                var algorithm_value = $("select[name='dropdown-detector']").val();
                 $.ajax({
                     type: "POST",
                     url: "/ml-detection",
-                    data: { link_clicked: true }, // Include a parameter to indicate the link click
+                    data: {
+                        link_clicked: true,
+                        algorithm: algorithm_value,
+                    },
                     success: function(response) {
                         // Update the result container with the detection result
                         updateTable(response.table);

@@ -3,5 +3,5 @@ parameters:
   EventCode: 3389
 
 alert:
-  Message: A user was logged in after work hours.
+  Message: A user was remotely connected to the machine.
   SeverityLevel: Critical

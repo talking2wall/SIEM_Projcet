@@ -3,7 +3,7 @@ from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import CountVectorizer
 
-def Run(df, threshold):
+def Run(df):
     
     ########################
     ### pre-proccessing  ###
@@ -58,7 +58,7 @@ def Run(df, threshold):
     # Add the anomaly scores as a new column in your DataFrame
     df_original['AnomalyScore'] = anomaly_scores
 
-    # Identify anomalies based on a threshold (you can adjust this threshold)
-    anomalies = df_original[df_original['AnomalyScore'] < threshold]
+    # # Identify anomalies based on a threshold (you can adjust this threshold)
+    # anomalies = df_original[df_original['AnomalyScore'] < threshold]
 
-    return anomalies
+    return df_original
