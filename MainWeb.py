@@ -33,6 +33,7 @@ def search():
         textbox_values = request.form.getlist('textbox[]')
         # load the dataframe
         df = pd.read_csv(r'dataframes\good_samples_cleaned.csv')
+        df['Message'].replace(to_replace=[r"\\t|\\n|\\r", "\t|\n|\r"], value=["",""], regex=True, inplace=True)
         # remove the first two items of the template filter (caused of html filter row implemetation)
         textbox_values.pop(0)
         textbox_values.pop(0)
