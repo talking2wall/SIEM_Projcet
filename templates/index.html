@@ -3,51 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Table</title>
+    <title>Modern Dashboard</title>
     <!-- Include Bootstrap CSS for styling -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Custom CSS for table styling -->
+    <!-- Custom CSS for styling -->
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-color: #0a0a0a; /* Dark background color for the body */
-            color: #ccc; /* Text color in dark mode */
-            font-family: 'Arial', sans-serif; /* Modern font */
+            background-color: #121212; /* Dark theme background color */
+            font-family: 'Arial', sans-serif;
+            color: #fff; /* Text color */
         }
+
         .container {
-            max-width: none;
-            height: 95vh; /* Set the container height to 95% of the viewport height */
-            background-color: #121212; /* Slightly lighter background color for the container */
-            /* border-radius: 10px; Rounded corners for the container */
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
-            overflow: hidden; /* Hide any overflow beyond the container */
-            display: flex;
-            flex-direction: column;
+            max-width: 100%;
+            padding: 5px;
+            height: 70vh;
         }
-        table {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-x: auto; /* Add horizontal scrollbar when table overflows */
+
+        .header {
+            background: linear-gradient(to right, #333, #121212); /* Gradient background */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
         }
-        .table-responsive {
-            border-radius: 5px; /* Slightly rounded table edges */
-            overflow: auto; /* Add both horizontal and vertical scrollbars when table overflows */
-            max-height: 100%; /* Set a maximum height for vertical scrolling (adjust as needed) */
+
+        .graphs-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Adjust graph card width */
+            margin-top: 10px;
         }
-        th, td {
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            padding: 10px;
-            font-size: 14px; /* Font size for better readability */
-            background-color: #1a1a1a; /* Darker background color for table cells */
-            border: 1px solid #333; /* Border color for table cells */
-            color: #fff; /* Text color in table cells */
-            text-align: left; /* Justify text to the left */
+
+        .graph-card {
+            background: transparent;
+            overflow: hidden;
+            text-align: center;
+            color: #fff; /* Graph card text color */
+            width: 100%; /* Card width to occupy full row */
+            min-height: 250px; /* Minimum card height */
         }
+
+        .graph-card img {
+            max-width: 100%;
+            height: 230px; /* Maintain aspect ratio */
+            min-height: 230px; /* Minimum image height */
+            object-fit: cover;
+            margin-left: -20px;
+        }
+
         h1 {
-            color: #ffa500; /* Header text color in dark mode (orange) */
+            color: #0072FF; /* Adjust h1 text color */
+            font-size: 20px; /* Increase font size for modern look */
+            padding: 10px;
         }
 
         /* Scrollbar styling for webkit-based browsers (Chrome, Safari) */
@@ -64,26 +72,137 @@
             border-radius: 6px; /* Rounded corners for the thumb */
         }
 
-        /* Scrollbar styling for Firefox */
-        scrollbar-width: thin;
-        scrollbar-color: #333 #121212; /* Thumb and track color */
+        /* Styling for graph titles */
+        .graph-title {
+
+            color: #fff;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        /* Styling for the 'Online' card */
+        .online-card {
+            background: transparent;
+            overflow: hidden;
+            text-align: center;
+            color: #fff;
+            width: 100%;
+            min-height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for 'Online' text */
+        .online-text-on {
+            font-size: 24px;
+            text-transform: uppercase;
+            border-top: 2px solid #00FF00;
+            border-bottom: 2px solid #00FF00;
+            padding: 5px 0;
+        }
+        /* Styling for 'Online' text */
+        .online-text-off {
+            font-size: 24px;
+            text-transform: uppercase;
+            border-top: 2px solid #cf3000;
+            border-bottom: 2px solid #cf3000;
+            padding: 5px 0;
+        }
+        table {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: auto; /* Add horizontal scrollbar when table overflows */
+        }
+        .table-responsive {
+            border-radius: 5px; /* Slightly rounded table edges */
+            overflow: auto; /* Add both horizontal and vertical scrollbars when table overflows */
+            max-height: 100%; /* Set a maximum height for vertical scrolling (adjust as needed) */
+        }
+        th, td {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            font-size: 14px; /* Font size for better readability */
+            background-color: #1a1a1a; /* Darker background color for table cells */
+            border: 1px solid #333; /* Border color for table cells */
+            color: #fff; /* Text color in table cells */
+            text-align: left; /* Justify text to the left */
+        }
+
+        .container-table {
+            max-width: 100%;
+            padding: 20px;
+            height: 20vh;
+        }
     </style>
 </head>
 <body>
+    <!-- Include your navigation bar here if needed -->
     {% include 'navbar.html' %}
+
     <div class="container">
-        <br>
-        <h1>Data Table</h1>
-        <!-- Display the Pandas DataFrame as a Bootstrap table with horizontal and vertical scrollbars -->
-        <div class="table-responsive">
-            <table>
-                {{ table | safe }}
+
+        <div class="graphs-container">
+            <!-- Display 4 pie charts using img tags with inline styles for size -->
+            {% for i in range(3) %}
+                <div class="graph-card" style="position: relative;"> <!-- Set a fixed height here and add position: relative -->
+                    <h2 class="graph-title">{{ pies_data_titles[i] }}</h2>
+                    <img src="data:image/png;base64,{{ pie_data[i] }}" alt="Pie Chart" style="margin-top: -40px;"> <!-- Adjust margin-top for the image only -->
+                </div>
+            {% endfor %}
+            <!-- Display 'Online' card -->
+            <div class="online-card">
+                {% if online_status %}
+                <div class="online-text-on">Online</div>
+                {% else %}
+                <div class="online-text-off">Offline</div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="graphs-container">
+            <!-- Display 4 Plotly graphs with inline styles for size -->
+            {% for i in range(4) %}
+                <div class="graph-card" style="position: relative; margin-top: -40px;"> <!-- Set a fixed height here and add position: relative -->
+                    <h2 class="graph-title">{{ plot_divs_titles[i] }}</h2>
+                    <div style="margin-top: -90px;"> <!-- Wrap the content in a separate div and apply margin-top to it -->
+                        {{ plot_divs[i] | safe }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container-table" style="margin-top: -40px;">
+        <h1>Real-Time Alerts:</h1>
+        <div class="table-responsive" style="position: relative; margin-top: -10px;">
+            <table id="alert-table">
+                <thead>
+                    <tr>
+                        <th style="width: 5%; text-align: center;">id</th>
+                        <th style="width: 10%; text-align: center;">Date</th>
+                        <th style="width: 10%; text-align: center;">Time</th>
+                        <th style="width: 70%">Alert Message</th>
+                        <th style="width: 5%; text-align: center;">Severity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for alert in alerts_list %}
+                    <tr>
+                        <td style="text-align: center;">{{ alert[0] }}</td>
+                        <td style="text-align: center;">{{ alert[1] }}</td>
+                        <td style="text-align: center;">{{ alert[2] }}</td>
+                        <td>{{ alert[3] }}</td>
+                        <td style="text-align: center;">{{ alert[4] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
             </table>
         </div>
     </div>
     <!-- Include Bootstrap JS for additional functionality (optional) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include your JavaScript code here for the additional Plotly graphs -->
 </body>
 </html>

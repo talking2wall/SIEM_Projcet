@@ -1,0 +1,8 @@
+parameters:
+  LogName: 'Security'
+  EventCode: 4625
+  count: 1
+
+alert:
+  Message: A failed login attempts detected.
+  SeverityLevel: Low

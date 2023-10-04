@@ -5,13 +5,43 @@ import MLDetection
 import CheckForAlerts
 import CreateNewAlert
 import Filter
+import DashboardGraphics
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
+    # load good samples for the graphs
     df = pd.read_csv(r'dataframes\good_samples_cleaned.csv')
-    return render_template('index.html', table=df.to_html(classes='table table-striped'))
+    # load good samples for the alerts table
+    df_bad = pd.read_csv(r'dataframes\bad_login_cleaned.csv')
+    # simply extract all the alerts
+    alerts_list = CheckForAlerts.Run(df_bad, '1999-01-01', '2030-01-01')
+    # as a prof of concept, making the dashboard appear like it gets real time logs
+    online_status = True
+    # creating the plots and returning the page
+    pies_data, pies_data_titles = DashboardGraphics.get_pie_data(df)
+    plot_divs, plot_divs_titles = DashboardGraphics.create_time_series_plots(df)
+    img_data_base64_list = DashboardGraphics.generate_pie_chart(pies_data)
+    return render_template('index.html', alerts_list=alerts_list, pie_data=img_data_base64_list, plot_divs=plot_divs, pies_data_titles=pies_data_titles, plot_divs_titles=plot_divs_titles, online_status=online_status)
+
+@app.route('/search', methods=['GET', 'POST'])
+def search():
+    if request.method == 'POST':
+        # Get the values from the form
+        dropdown_values = request.form.getlist('dropdown[]')
+        textbox_values = request.form.getlist('textbox[]')
+        # load the dataframe
+        df = pd.read_csv(r'dataframes\good_samples_cleaned.csv')
+        # remove the first two items of the template filter (caused of html filter row implemetation)
+        textbox_values.pop(0)
+        textbox_values.pop(0)
+        # Filtering the data and returning the result
+        df_detections_filtered = Filter.Filter(df, dropdown_values, textbox_values)
+        df_detections_filtered_html = df_detections_filtered.to_html(classes='table table-striped table-bordered')
+        return jsonify(table=df_detections_filtered_html)
+
+    return render_template('search.html')
 
 @app.route('/alerts', methods=['GET', 'POST'])
 def alerts():
@@ -19,7 +49,9 @@ def alerts():
         # Retrieve the date values from the form data
         start_date = request.form.get('startDateInput')
         end_date = request.form.get('endDateInput')
+        # load the dataframe
         df = pd.read_csv(r'dataframes\bad_login_cleaned.csv')
+        # check for alert and return the results
         alerts_list = CheckForAlerts.Run(df, start_date, end_date)
         return jsonify(alerts_list)
     else:
