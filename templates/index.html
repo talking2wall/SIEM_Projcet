@@ -149,7 +149,9 @@
             {% for i in range(3) %}
                 <div class="graph-card" style="position: relative;"> <!-- Set a fixed height here and add position: relative -->
                     <h2 class="graph-title">{{ pies_data_titles[i] }}</h2>
-                    <img src="data:image/png;base64,{{ pie_data[i] }}" alt="Pie Chart" style="margin-top: -40px;"> <!-- Adjust margin-top for the image only -->
+                    <div id="pie-chart-{{ i }}">
+                        <img src="data:image/png;base64,{{ pie_data[i] }}" alt="Pie Chart" style="margin-top: -40px;"> <!-- Adjust margin-top for the image only -->
+                    </div>
                 </div>
             {% endfor %}
             <!-- Display 'Online' card -->
@@ -168,7 +170,9 @@
                 <div class="graph-card" style="position: relative; margin-top: -40px;"> <!-- Set a fixed height here and add position: relative -->
                     <h2 class="graph-title">{{ plot_divs_titles[i] }}</h2>
                     <div style="margin-top: -90px;"> <!-- Wrap the content in a separate div and apply margin-top to it -->
-                        {{ plot_divs[i] | safe }}
+                        <div id="plot-{{ i }}">
+                            {{ plot_divs[i] | safe }}
+                        </div>
                     </div>
                 </div>
             {% endfor %}
@@ -201,8 +205,79 @@
             </table>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Include Bootstrap JS for additional functionality (optional) -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- Include your JavaScript code here for the additional Plotly graphs -->
+    <script>
+        function updateData() {
+            fetch('/update_data')
+                .then(response => response.json())
+                .then(data => {
+                    // Update pie charts
+                    updatePieCharts(data.pieData);
+
+                    // Update Plotly graphs
+                    updatePlots(data.plotData);
+
+                    // Update the table
+                    updateTable(data.alertsList);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                })
+                .finally(() => {
+                    setTimeout(updateData, 5000); // Schedule the next update
+                });
+        }
+
+        // Function to update pie charts
+        function updatePieCharts(pieData) {
+            for (let i = 0; i < pieData.length; i++) {
+                updatePieChart('pie-chart-' + i, pieData[i]);
+            }
+        }
+
+        // Define the updatePieChart function to update the pie charts
+        function updatePieChart(chartId, data) {
+            const imgElement = document.querySelector('#' + chartId + ' img');
+            imgElement.src = 'data:image/png;base64,' + data;
+        }
+
+        // Function to update Plotly graphs
+        function updatePlots(plotData) {
+            if (Array.isArray(plotData)) {
+                for (let i = 0; i < plotData.length; i++) {
+                    updatePlot('plot-' + i, plotData[i]);
+                }
+            }
+        }
+
+        // Function to update the table
+        function updateTable(tableData) {
+            var tableBody = document.querySelector('#alert-table tbody');
+            tableBody.innerHTML = '';
+
+            tableData.forEach(function(data) {
+                var row = document.createElement('tr');
+                row.innerHTML = `
+                    <td style="text-align: center;">${data[0]}</td>
+                    <td style="text-align: center;">${data[1]}</td>
+                    <td style="text-align: center;">${data[2]}</td>
+                    <td>${data[3]}</td>
+                    <td style="text-align: center;">${data[4]}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
+        // Example function to update a Plotly graph
+        function updatePlot(graphId, newData) {
+            Plotly.react(graphId, newData.data, newData.layout);
+        }
+
+        // Initialize the initial data update
+        updateData();
+    </script>
 </body>
 </html>

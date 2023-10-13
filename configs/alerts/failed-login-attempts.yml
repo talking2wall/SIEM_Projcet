@@ -5,4 +5,4 @@ parameters:
 
 alert:
   Message: 3 failed login attempts detected.
-  SeverityLevel: Critical
+  SeverityLevel: Low

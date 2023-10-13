@@ -43,6 +43,9 @@
             background: #333; /* Thumb color */
             border-radius: 6px; /* Rounded corners for the thumb */
         }
+        /* Scrollbar styling for Firefox */
+        scrollbar-width: thin;
+        scrollbar-color: #333 #121212; /* Thumb and track color */
         table {
             width: 100%;
             margin: 0;
@@ -244,7 +247,6 @@
                 <input type="text" class="form-control time-textbox col-1" name="threshold-to" placeholder="to 1.0">
                 <button type="submit" class="options-button col-1" id="scan-button">Scan</button>
             </div>
-            <h5>Hint: Negative values means data is more likely to be anomaly.</h5>
             <div class="form-group-filters d-none justify-content-center" id="template-row">
                 <select class="form-control col-2" name="dropdown[]">
                     <option value="" disabled hidden selected>Select column</option>

@@ -1,0 +1,7 @@
+alert:
+  Message: Windows Defender has manually turned off.
+  SeverityLevel: Critical
+parameters:
+  EventCode: 15
+  Message: Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_SNOOZED.
+  count: 4

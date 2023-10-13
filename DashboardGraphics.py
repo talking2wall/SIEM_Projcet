@@ -45,6 +45,7 @@ def generate_pie_chart(data_list):
 
 def create_time_series_plots(df):
     df['Datetime'] = pd.to_datetime(df['Date'] + ' ' + df['Time'])
+    #df['Datetime'] = pd.to_datetime(df['Date'] + ' ' + df['Time'], format='%m/%d/%Y %H:%M:%S %p')
 
     unique_log_names = df['LogName'].unique()
     plot_divs = []

@@ -22,7 +22,7 @@ def CreateAlert(dropdown_values, textbox_values, file_name, alert_message, sever
             if dropdown_values[i] == 'Time':
                 parameter_properties.append(('start_time', str(textbox_values[j])))
                 parameter_properties.append(('end_time', str(textbox_values[j+1])))
-            elif dropdown_values[i] in ['EventType', 'Type', 'RecordNumber', 'EventCode']:
+            elif dropdown_values[i] in ['EventType', 'Type', 'RecordNumber', 'EventCode', 'count']:
                 parameter_properties.append((dropdown_values[i], int(textbox_values[j])))
             else:
                 parameter_properties.append((dropdown_values[i], str(textbox_values[j])))
