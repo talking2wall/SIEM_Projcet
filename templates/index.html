@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Dashboard</title>
+    <title>Dashboard</title>
     <!-- Include Bootstrap CSS for styling -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS for styling -->
@@ -206,9 +206,9 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Include Bootstrap JS for additional functionality (optional) -->
+    <!-- Include Bootstrap JS for additional functionality -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Include your JavaScript code here for the additional Plotly graphs -->
+    {% if online_status == True %}
     <script>
         function updateData() {
             fetch('/update_data')
@@ -279,5 +279,6 @@
         // Initialize the initial data update
         updateData();
     </script>
+    {% endif %}
 </body>
 </html>

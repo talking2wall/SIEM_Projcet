@@ -6,10 +6,7 @@ import CheckForAlerts
 import CreateNewAlert
 import Filter
 import DashboardGraphics
-import splunklib.client as client
-import splunklib.results as results
 import psutil
-import json
 
 
 app = Flask(__name__)

@@ -50,6 +50,9 @@ if os.path.isfile('realtime_db.csv') == False:
                         'Message' : Message })
     
     df.to_csv('realtime_db.csv', index=False)
+    
+else:
+    df = pd.read_csv('realtime_db.csv', index_col=False)
 
 
 time_interval = 5
@@ -89,17 +92,16 @@ def RunSearch(search_query):
             print('STATUS: A new log was added:')
             print(new_row)
 
-thread_id = 0
 
 while True:
 
     if datetime.datetime.now() >= latest:
+        print('set a search for ealiest =', earliest.strftime("%m/%d/%Y:%H:%M:%S"), 'to', latest.strftime("%m/%d/%Y:%H:%M:%S"))
         search_query = f'search index=main earliest=\"{earliest.strftime("%m/%d/%Y:%H:%M:%S")}\" latest=\"{latest.strftime("%m/%d/%Y:%H:%M:%S")}\"'
-        thread = Thread(target = RunSearch, args = (search_query, ), name = thread_id)
-        print('[', thread.name ,'] set a search for ealiest =', earliest.strftime("%m/%d/%Y:%H:%M:%S"), 'to', latest.strftime("%m/%d/%Y:%H:%M:%S"))
+        thread = Thread(target = RunSearch, args = (search_query, ))
         thread.start()
-        #thread.join()
-        print('[', thread.name ,'] Thread from', earliest.strftime("%m/%d/%Y:%H:%M:%S"), 'to', latest.strftime("%m/%d/%Y:%H:%M:%S"), 'has finished.')
+        thread.join()
+        print('Thread from', earliest.strftime("%m/%d/%Y:%H:%M:%S"), 'to', latest.strftime("%m/%d/%Y:%H:%M:%S"), 'has finished.')
         latest = latest + datetime.timedelta(0,time_interval)
         earliest = earliest + datetime.timedelta(0,time_interval)
         

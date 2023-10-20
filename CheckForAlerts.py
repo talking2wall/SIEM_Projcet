@@ -21,6 +21,7 @@ def Run(df, start_date = None, end_date = None): # find alerts in the dataframe
 
     # go for each rule and filter unmatched rows
     alerts_list = []
+    current_index = 1
     for cfg in configs:
         time_filter = False
         count_filter = -1
@@ -56,10 +57,12 @@ def Run(df, start_date = None, end_date = None): # find alerts in the dataframe
         # print rows left after filtering
         if type(count_filter) == int and count_filter > 0:
             for i in range(0, int(len(df_result) / count_filter)):
-                alerts_list.append([int(i + 1), df_result.iloc[i]['Date'], df_result.iloc[i]['Time'], cfg['alert']['Message'], cfg['alert']['SeverityLevel']])
+                alerts_list.append([current_index, df_result.iloc[i]['Date'], df_result.iloc[i]['Time'], cfg['alert']['Message'], cfg['alert']['SeverityLevel']])
+                current_index += 1
         else:
             for i in range(0, len(df_result)):
-                alerts_list.append([int(i + 1), df_result.iloc[i]['Date'], df_result.iloc[i]['Time'], cfg['alert']['Message'], cfg['alert']['SeverityLevel']])
+                alerts_list.append([current_index, df_result.iloc[i]['Date'], df_result.iloc[i]['Time'], cfg['alert']['Message'], cfg['alert']['SeverityLevel']])
+                current_index += 1
 
     return alerts_list
 
